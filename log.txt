@@ -1,0 +1,1423 @@
+OK                                                                                                                                  
+                                                                                                                                    
+U-Boot 2010.03-dirty (Nov 13 2015 - 02:04:01) for iTOP-4412 Android                                                                 
+                                                                                                                                    
+                                                                                                                                    
+CPU:    SMDK4412-AP1.1 [e4412211]                                                                                                   
+        APLL = 1000MHz, MPLL = 800MHz                                                                                               
+        ARM_CLOCK = 1000MHz                                                                                                         
+PMIC:   S5M8767(VER5.0)                                                                                                             
+Board:  iTOP-4412Quad                                                                                                               
+POP type: POP for C220                                                                                                              
+DRAM:   1023 MB                                                                                                                     
+MMC:   Count: 100                                                                                                                   
+max_emmc_clock:40 MHZ                                                                                                               
+Set CLK to 400 KHz                                                                                                                  
+EMMC CLOCK OUTPUT:: 400KHz -[div:50]                                                                                                
+response timeout error : 00000104 cmd 8                                                                                             
+response timeout error : 00000104 cmd 55                                                                                            
+max_emmc_clock:40 MHZ                                                                                                               
+Input CLK [ 50 MHz] is higher than limit [40 MHZ]                                                                                   
+Set CLK to 40000 KHz                                                                                                                
+EMMC clock output: 40000 KHz                                                                                                        
+max_emmc_clock:40 MHZ                                                                                                               
+Input CLK [ 50 MHz] is higher than limit [40 MHZ]                                                                                   
+Set CLK to 40000 KHz                                                                                                                
+EMMC clock output: 40000 KHz                                                                                                        
+MMC0:   7456 MB                                                                                                                     
+SD sclk_mmc is 400K HZ                                                                                                              
+raise: Signal # 8 caught                                                                                                            
+raise: Signal # 8 caught                                                                                                            
+MMC1:   0 MB                                                                                                                        
+0 MB                                                                                                                                
+*** Warning - using default environment                                                                                             
+                                                                                                                                    
+In:    serial                                                                                                                       
+Out:   serial                                                                                                                       
+Err:   serial                                                                                                                       
+eMMC OPEN Success.!!                                                                                                                
+                        !!!Notice!!!                                                                                                
+!You must close eMMC boot Partition after all image writing!                                                                        
+!eMMC boot partition has continuity at image writing time.!                                                                         
+!So, Do not close boot partition, Before, all images is written.!                                                                   
+                                                                                                                                    
+MMC read: dev # 0, block # 48, count 16 ...16 blocks read: OK                                                                       
+eMMC CLOSE Success.!!                                                                                                               
+                                                                                                                                    
+                                                                                                                                    
+Checking Boot Mode ... EMMC4.41                                                                                                     
+SYSTEM ENTER NORMAL BOOT MODE                                                                                                       
+Hit any key to stop autoboot:  0                                                                                                    
+iTOP-4412 #                                                                                                                         
+iTOP-4412 #                                                                                                                         
+iTOP-4412 #                                                                                                                         
+iTOP-4412 #                                                                                                                         
+iTOP-4412 #                                                                                                                         
+iTOP-4412 #                                                                                                                         
+iTOP-4412 # fastboot                                                                                                                
+[Partition table on MoviNAND]                                                                                                       
+ptn 0 name='bootloader' start=0x0 len=N/A (use hard-coded info. (cmd: movi))                                                        
+ptn 1 name='kernel' start=N/A len=N/A (use hard-coded info. (cmd: movi))                                                            
+ptn 2 name='ramdisk' start=N/A len=0x300000(~3072KB) (use hard-coded info. (cmd: movi))                                             
+ptn 3 name='Recovery' start=N/A len=0x600000(~6144KB) (use hard-coded info. (cmd: movi))                                            
+ptn 4 name='system' start=0x15DDA00 len=0x403B0600(~1052353KB)                                                                      
+ptn 5 name='userdata' start=0x4198E000 len=0x403B0600(~1052353KB)                                                                   
+ptn 6 name='cache' start=0x81D3E600 len=0x1321EC00(~313467KB)                                                                       
+ptn 7 name='fat' start=0x94F5D200 len=0x3BAFB600(~977901KB)                                                                         
+Received 17 bytes: download:003c8f00                                                                                                
+Starting download of 3968768 bytes                                                                                                  
+...                                                                                                                                 
+downloading of 3968768 bytes finished                                                                                               
+Received 12 bytes: flash:kernel                                                                                                     
+flashing 'kernel'                                                                                                                   
+writing kernel.. 1120, 12288                                                                                                        
+MMC write: dev # 0, block # 1120, count 12288. 12288 blocks write finish                                                            
+12288 blocks written: OK                                                                                                            
+completed                                                                                                                           
+partition 'kernel' flashed                                                                                                          
+Received 6 bytes: reboot                                                                                                            
+reset...                                                                                                                            
+                                                                                                                                    
+OK                                                                                                                                  
+                                                                                                                                    
+U-Boot 2010.03-dirty (Nov 13 2015 - 02:04:01) for iTOP-4412 Android                                                                 
+                                                                                                                                    
+                                                                                                                                    
+CPU:    SMDK4412-AP1.1 [e4412211]                                                                                                   
+        APLL = 1000MHz, MPLL = 800MHz                                                                                               
+        ARM_CLOCK = 1000MHz                                                                                                         
+PMIC:   S5M8767(VER5.0)                                                                                                             
+Board:  iTOP-4412Quad                                                                                                               
+POP type: POP for C220                                                                                                              
+DRAM:   1023 MB                                                                                                                     
+MMC:   Count: 100                                                                                                                   
+max_emmc_clock:40 MHZ                                                                                                               
+Set CLK to 400 KHz                                                                                                                  
+EMMC CLOCK OUTPUT:: 400KHz -[div:50]                                                                                                
+response timeout error : 00000104 cmd 8                                                                                             
+response timeout error : 00000104 cmd 55                                                                                            
+max_emmc_clock:40 MHZ                                                                                                               
+Input CLK [ 50 MHz] is higher than limit [40 MHZ]                                                                                   
+Set CLK to 40000 KHz                                                                                                                
+EMMC clock output: 40000 KHz                                                                                                        
+max_emmc_clock:40 MHZ                                                                                                               
+Input CLK [ 50 MHz] is higher than limit [40 MHZ]                                                                                   
+Set CLK to 40000 KHz                                                                                                                
+EMMC clock output: 40000 KHz                                                                                                        
+MMC0:   7456 MB                                                                                                                     
+SD sclk_mmc is 400K HZ                                                                                                              
+raise: Signal # 8 caught                                                                                                            
+raise: Signal # 8 caught                                                                                                            
+MMC1:   0 MB                                                                                                                        
+0 MB                                                                                                                                
+*** Warning - using default environment                                                                                             
+                                                                                                                                    
+In:    serial                                                                                                                       
+Out:   serial                                                                                                                       
+Err:   serial                                                                                                                       
+eMMC OPEN Success.!!                                                                                                                
+                        !!!Notice!!!                                                                                                
+!You must close eMMC boot Partition after all image writing!                                                                        
+!eMMC boot partition has continuity at image writing time.!                                                                         
+!So, Do not close boot partition, Before, all images is written.!                                                                   
+                                                                                                                                    
+MMC read: dev # 0, block # 48, count 16 ...16 blocks read: OK                                                                       
+eMMC CLOSE Success.!!                                                                                                               
+                                                                                                                                    
+                                                                                                                                    
+Checking Boot Mode ... EMMC4.41                                                                                                     
+SYSTEM ENTER NORMAL BOOT MODE                                                                                                       
+Hit any key to stop autoboot:  0                                                                                                    
+reading kernel.. 1120, 12288                                                                                                        
+MMC read: dev # 0, block # 1120, count 12288 ...12288 blocks read: OK                                                               
+completed                                                                                                                           
+reading RFS.. 13408, 2048                                                                                                           
+MMC read: dev # 0, block # 13408, count 2048 ...2048 blocks read: OK                                                                
+completed                                                                                                                           
+Boot with zImage                                                                                                                    
+Wrong Ramdisk Image Format                                                                                                          
+[err] boot_get_ramdisk                                                                                                              
+                                                                                                                                    
+Starting kernel ...                                                                                                                 
+                                                                                                                                    
+Uncompressing Linux... done, booting the kernel.                                                                                    
+[    0.000000] Initializing cgroup subsys cpu                                                                                       
+[    0.000000] Linux version 3.0.15 (root@cym-virtual-machine) (gcc version 4.4.1 (Sourcery G++ Lite 2009q3-67) ) #5 SMP PREEMPT Thu
+ Aug 11 11:45:26 CST 2016                                                                                                           
+[    0.000000] CPU: ARMv7 Processor [413fc090] revision 0 (ARMv7), cr=10c5387d                                                      
+[    0.000000] CPU: VIPT nonaliasing data cache, VIPT aliasing instruction cache                                                    
+[    0.000000] Machine: SMDK4X12                                                                                                    
+[    0.000000] **************************                                                                                           
+[    0.000000] reserve_panic_dump_area!!                                                                                            
+[    0.000000] **************************                                                                                           
+[    0.000000] Memory policy: ECC disabled, Data cache writealloc                                                                   
+[    0.000000] CPU EXYNOS4412 (id 0xe4412211)                                                                                       
+[    0.000000] S3C24XX Clocks, Copyright 2004 Simtec Electronics                                                                    
+[    0.000000] s3c_register_clksrc: clock audiocdclk has no registers set                                                           
+[    0.000000] audiocdclk: no parent clock specified                                                                                
+[    0.000000] s3c_register_clksrc: clock armclk has no registers set                                                               
+[    0.000000] EXYNOS4: PLL settings, A=1000000000, M=800000000, E=96000000 V=350000000                                             
+[    0.000000] EXYNOS4: ARMCLK=1000000000, DMC=400000000, ACLK200=24000000                                                          
+[    0.000000] ACLK160=160000000, ACLK133=133333333, ACLK100=100000000                                                              
+[    0.000000] EXYNOS4: ACLK400=24000000 ACLK266=800000000                                                                          
+[    0.000000] uclk1: source is mout_mpll_user (6), rate is 100000000                                                               
+[    0.000000] uclk1: source is mout_mpll_user (6), rate is 100000000                                                               
+[    0.000000] uclk1: source is mout_mpll_user (6), rate is 100000000                                                               
+[    0.000000] uclk1: source is mout_mpll_user (6), rate is 100000000                                                               
+[    0.000000] sclk_csis: source is xusbxti (1), rate is 1500000                                                                    
+[    0.000000] sclk_csis: source is xusbxti (1), rate is 1500000                                                                    
+[    0.000000] sclk_cam0: source is xusbxti (1), rate is 1500000                                                                    
+[    0.000000] sclk_cam1: source is xusbxti (1), rate is 1500000                                                                    
+[    0.000000] sclk_fimc: source is xusbxti (1), rate is 1500000                                                                    
+[    0.000000] sclk_fimc: source is xusbxti (1), rate is 1500000                                                                    
+[    0.000000] sclk_fimc: source is xusbxti (1), rate is 1500000                                                                    
+[    0.000000] sclk_fimc: source is xusbxti (1), rate is 1500000                                                                    
+[    0.000000] sclk_fimd: source is xusbxti (1), rate is 1500000                                                                    
+[    0.000000] sclk_fimd: source is xusbxti (1), rate is 1500000                                                                    
+[    0.000000] sclk_mfc: source is mout_mfc0 (0), rate is 200000000                                                                 
+[    0.000000] sclk_g3d: source is mout_g3d0 (0), rate is 41666666                                                                  
+[    0.000000] sclk_pwi: source is xusbxti (1), rate is 1500000                                                                     
+[    0.000000] PERCPU: Embedded 7 pages/cpu @c11b9000 s6752 r8192 d13728 u32768                                                     
+[    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 259842                                          
+[    0.000000] Kernel command line: root=/dev/mmcblk0p2 rootfstype=ext4 init=/linuxrc console=ttySAC2,115200                        
+[    0.000000] log_buf_len: 524288                                                                                                  
+[    0.000000] early log buf free: 127722(97%)                                                                                      
+[    0.000000] PID hash table entries: 4096 (order: 2, 16384 bytes)                                                                 
+[    0.000000] Dentry cache hash table entries: 131072 (order: 7, 524288 bytes)                                                     
+[    0.000000] Inode-cache hash table entries: 65536 (order: 6, 262144 bytes)                                                       
+[    0.000000] Memory: 1023MB = 1023MB total                                                                                        
+[    0.000000] Memory: 646492k/646492k available, 401060k reserved, 293888K highmem                                                 
+[    0.000000] Virtual kernel memory layout:                                                                                        
+[    0.000000]     vector  : 0xffff0000 - 0xffff1000   (   4 kB)                                                                    
+[    0.000000]     fixmap  : 0xfff00000 - 0xfffe0000   ( 896 kB)                                                                    
+[    0.000000]     DMA     : 0xfea00000 - 0xffe00000   (  20 MB)                                                                    
+[    0.000000]     vmalloc : 0xee800000 - 0xf6000000   ( 120 MB)                                                                    
+[    0.000000]     lowmem  : 0xc0000000 - 0xee000000   ( 736 MB)                                                                    
+[    0.000000]     pkmap   : 0xbfe00000 - 0xc0000000   (   2 MB)                                                                    
+[    0.000000]     modules : 0xbf000000 - 0xbfe00000   (  14 MB)                                                                    
+[    0.000000]       .init : 0xc0008000 - 0xc003e000   ( 216 kB)                                                                    
+[    0.000000]       .text : 0xc003e000 - 0xc08ce000   (8768 kB)                                                                    
+[    0.000000]       .data : 0xc08ce000 - 0xc09726e0   ( 658 kB)                                                                    
+[    0.000000]        .bss : 0xc09729d0 - 0xc09af190   ( 242 kB)                                                                    
+[    0.000000] SLUB: Genslabs=13, HWalign=32, Order=0-3, MinObjects=0, CPUs=4, Nodes=1                                              
+[    0.000000] Preemptible hierarchical RCU implementation.                                                                         
+[    0.000000] NR_IRQS:456                                                                                                          
+[    0.000000] Calibrating delay loop... 1992.29 BogoMIPS (lpj=4980736)                                                             
+[    0.045000] pid_max: default: 32768 minimum: 301                                                                                 
+[    0.045000] Mount-cache hash table entries: 512                                                                                  
+[    0.045000] Initializing cgroup subsys debug                                                                                     
+[    0.045000] Initializing cgroup subsys cpuacct                                                                                   
+[    0.045000] Initializing cgroup subsys freezer                                                                                   
+[    0.045000] CPU: Testing write buffer coherency: ok                                                                              
+[    0.045000] **********panic_dump_test****************                                                                            
+[    0.045000] There is no valid panic information in memory                                                                        
+[    0.045000] **************************                                                                                           
+[    0.045000] L310 cache controller enabled                                                                                        
+[    0.045000] l2x0: 16 ways, CACHE_ID 0x4100c4c8, AUX_CTRL 0x7e470001, Cache size: 1048576 B                                       
+[    0.075000] CPU1: Booted secondary processor                                                                                     
+[    0.095000] CPU2: Booted secondary processor                                                                                     
+[    0.115000] CPU3: Booted secondary processor                                                                                     
+[    0.115000] Brought up 4 CPUs                                                                                                    
+[    0.115000] SMP: Total of 4 processors activated (7969.17 BogoMIPS).                                                             
+[    0.120000] print_constraints: dummy:                                                                                            
+[    0.120000] NET: Registered protocol family 16                                                                                   
+[    0.120000] value1 = 1, value2 = 0, type = 0x2                                                                                   
+[    0.120000] value1 = 1, value2 = 0, type = 0x2                                                                                   
+[    1.125000] exynos4_pmu_init: PMU supports 4412(96)                                                                              
+[    1.125000] S3C Power Management, Copyright 2004 Simtec Electronics                                                              
+[    1.125000] EXYNOS4: Initializing architecture                                                                                   
+[    1.125000] panic_file create OK !!                                                                                              
+[    1.125000] s3c-adc exynos4412-adc: attached adc driver                                                                          
+[    1.125000] samsung-pd samsung-pd.0: power domain registered                                                                     
+[    1.125000] samsung-pd samsung-pd.1: power domain registered                                                                     
+[    1.125000] samsung-pd samsung-pd.2: power domain registered                                                                     
+[    1.125000] samsung-pd samsung-pd.5: power domain registered                                                                     
+[    1.130000] samsung-pd samsung-pd.4: power domain registered                                                                     
+[    1.130000] samsung-pd samsung-pd.6: power domain registered                                                                     
+[    1.130000] samsung-pd samsung-pd.7: power domain registered                                                                     
+[    1.130000] s3c24xx-pwm s3c24xx-pwm.1: tin at 100000000, tdiv at 100000000, tin=divclk, base 8                                   
+[    1.130000] UMP: UMP device driver  loaded                                                                                       
+[    1.145000] bio: create slab <bio-0> at 0                                                                                        
+[    1.145000] SCSI subsystem initialized                                                                                           
+[    1.145000] s3c64xx_spi_probe(969)                                                                                               
+[    1.145000] s3c64xx_spi_probe(1092)                                                                                              
+[    1.145000] s3c64xx_spi_probe(1113)                                                                                              
+[    1.150000] usbcore: registered new interface driver usbfs                                                                       
+[    1.150000] usbcore: registered new interface driver hub                                                                         
+[    1.150000] usbcore: registered new device driver usb                                                                            
+[    1.150000] i2c-gpio i2c-gpio.0: using pins 42 (SDA) and 43 (SCL)                                                                
+[    1.150000] +s5m8767_pmic_probe()                                                                                                
+[    1.150000] print_constraints: vdd_mif range: 900 <--> 1100 mV at 1100 mV                                                        
+[    1.150000] print_constraints: vdd_arm range: 850 <--> 1450 mV at 1200 mV                                                        
+[    1.150000] print_constraints: vdd_int range: 875 <--> 1200 mV at 1000 mV                                                        
+[    1.155000] print_constraints: vdd_g3d range: 750 <--> 1500 mV at 1100 mV                                                        
+[    1.155000] print_constraints: vdd_m12 range: 750 <--> 1500 mV at 1200 mV                                                        
+[    1.155000] print_constraints: vdd12_5m range: 750 <--> 1500 mV at 1200 mV                                                       
+[    1.155000] print_constraints: vddf28_emmc range: 750 <--> 3000 mV at 2850 mV                                                    
+[    1.160000] print_constraints: VDDQ_M12: 1200 mV                                                                                 
+[    1.160000] print_constraints: VDD18_2M: 1800 mV                                                                                 
+[    1.160000] print_constraints: VDD10_MIPI: 1000 mV                                                                               
+[    1.175000] print_constraints: VDD33_LCD: 3300 mV                                                                                
+[    1.175000] print_constraints: VDD18_MIPI: 1800 mV                                                                               
+[    1.185000] print_constraints: VDD33_UOTG: 3300 mV                                                                               
+[    1.190000] print_constraints: VDD10_USH: 1000 mV                                                                                
+[    1.190000] print_constraints: VDD18_HSIC: 1800 mV                                                                               
+[    1.190000] print_constraints: VDDIOPERI_28: 3300 mV                                                                             
+[    1.205000] print_constraints: DC33V_TP: 3300 mV                                                                                 
+[    1.205000] print_constraints: VDD28_CAM: 1800 mV                                                                                
+[    1.205000] print_constraints: VDD28_AF: 2800 mV                                                                                 
+[    1.205000] print_constraints: VDDA28_2M: 2800 mV                                                                                
+[    1.210000] print_constraints: VDD28_TF: 2800 mV                                                                                 
+[    1.220000] print_constraints: VDD33_A31: 3300 mV                                                                                
+[    1.245000] print_constraints: VDD18_CAM: 1800 mV                                                                                
+[    1.245000] print_constraints: VDD18_A31: 1800 mV                                                                                
+[    1.245000] print_constraints: GPS_1V8: 1800 mV                                                                                  
+[    1.250000] print_constraints: DVDD12: 1200 mV                                                                                   
+[    1.250000] -s5m8767_pmic_probe()                                                                                                
+[    1.250000] s5m87xx 1-0066: S5M87xx MFD probe done!!!                                                                            
+[    1.250000] s3c-i2c s3c2440-i2c.1: i2c-1: S3C I2C adapter                                                                        
+[    1.250000] s3c-i2c s3c2440-i2c.3: i2c-3: S3C I2C adapter                                                                        
+[    1.250000] s3c-i2c s3c2440-i2c.4: i2c-4: S3C I2C adapter                                                                        
+[    1.250000] s3c-i2c s3c2440-i2c.5: i2c-5: S3C I2C adapter                                                                        
+[    1.250000] s3c-i2c s3c2440-i2c.7: i2c-7: S3C I2C adapter                                                                        
+[    1.250000] Advanced Linux Sound Architecture Driver Version 1.0.24.                                                             
+[    1.250000] Bluetooth: Core ver 2.16                                                                                             
+[    1.250000] NET: Registered protocol family 31                                                                                   
+[    1.250000] Bluetooth: HCI device and connection manager initialized                                                             
+[    1.250000] Bluetooth: HCI socket layer initialized                                                                              
+[    1.250000] Bluetooth: L2CAP socket layer initialized                                                                            
+[    1.250000] Bluetooth: SCO socket layer initialized                                                                              
+[    1.250000] cfg80211: Calling CRDA to update world regulatory domain                                                             
+[    1.250000] Switching to clocksource mct-frc                                                                                     
+[    1.250491] Switched to NOHz mode on CPU #0                                                                                      
+[    1.250706] Switched to NOHz mode on CPU #2                                                                                      
+[    1.250713] Switched to NOHz mode on CPU #1                                                                                      
+[    1.250720] Switched to NOHz mode on CPU #3                                                                                      
+[    1.251992] NET: Registered protocol family 2                                                                                    
+[    1.252165] IP route cache hash table entries: 32768 (order: 5, 131072 bytes)                                                    
+[    1.252806] TCP established hash table entries: 131072 (order: 8, 1048576 bytes)                                                 
+[    1.254306] TCP bind hash table entries: 65536 (order: 7, 786432 bytes)                                                          
+[    1.255133] TCP: Hash tables configured (established 131072 bind 65536)                                                          
+[    1.255150] TCP reno registered                                                                                                  
+[    1.255166] UDP hash table entries: 512 (order: 2, 16384 bytes)                                                                  
+[    1.255203] UDP-Lite hash table entries: 512 (order: 2, 16384 bytes)                                                             
+[    1.255469] NET: Registered protocol family 1                                                                                    
+[    1.255679] PMU: registered new PMU device of type 0                                                                             
+[    1.255823] Exynos4 : ARM Clock down on idle mode is enabled                                                                     
+[    1.256734] regulator_consumer_probe: loading tc4-regulator-consumer                                                             
+[    1.256753]  Register vdd_consumer_early_suspend done                                                                            
+[    1.257373] Loaded driver for PL330 DMAC-0 s3c-pl330                                                                             
+[    1.257389]  DBUFF-64x8bytes Num_Chans-8 Num_Peri-1 Num_Events-32                                                                
+[    1.257685] Loaded driver for PL330 DMAC-1 s3c-pl330                                                                             
+[    1.257701]  DBUFF-32x4bytes Num_Chans-8 Num_Peri-32 Num_Events-32                                                               
+[    1.257800] Loaded driver for PL330 DMAC-2 s3c-pl330                                                                             
+[    1.257816]  DBUFF-32x4bytes Num_Chans-8 Num_Peri-32 Num_Events-32                                                               
+[    1.265310] highmem bounce pool size: 64 pages                                                                                   
+[    1.265509] ashmem: initialized                                                                                                  
+[    1.274380] fuse init (API version 7.16)                                                                                         
+[    1.274714] msgmni has been set to 688                                                                                           
+[    1.275383] io scheduler noop registered                                                                                         
+[    1.275397] io scheduler deadline registered                                                                                     
+[    1.275456] io scheduler cfq registered (default)                                                                                
+[    1.276324] value1 = 1, value2 = 0, type = 0x2                                                                                   
+[    1.530046] (s3cfb_cfg_gpio, 98): BK_VDD_ON                                                                                      
+[    1.635085] (s3cfb_cfg_gpio, 120): LCD_PWDN ON                                                                                   
+[    1.636088]                                                                                                                      
+[    1.636092]  CPU type:                                                                                                           
+[    1.636102]  Exynos 4412                                                                                                         
+[    1.636114] value1 = 1, value2 = 0, type = 0x2                                                                                   
+[    1.636815] parent clock: 800000000, vclk: 10165000, vclk div: 79                                                                
+[    1.886483] (s3cfb_backlight_on, 363): LCD_PWM_ON                                                                                
+[    1.891495] (s3cfb_backlight_on, 434): VGA_EN_ON                                                                                 
+[    1.891514] s3cfb s3cfb.0: registered successfully                                                                               
+[    1.892182] Serial: 8250/16550 driver, 4 ports, IRQ sharing disabled                                                             
+[    2.215256] s5pv210-uart.0: ttySAC0 at MMIO 0x13800000 (irq = 16) is a S3C6400/10                                                
+[    2.295062] s5pv210-uart.1: ttySAC1 at MMIO 0x13810000 (irq = 20) is a S3C6400/10                                                
+[    2.380062] s5pv210-uart.2: ttySAC2 at MMIO 0x13820000 (irq = 24) is a S3C6400/10                                                
+[    3.391660] console [ttySAC2] enabled                                                                                            
+[    3.475059] s5pv210-uart.3: ttySAC3 at MMIO 0x13830000 (irq = 28) is a S3C6400/10                                                
+[    3.556049] SI GPS Initialize                                                                                                    
+[    3.557816] max485_ctl Initialize                                                                                                
+[    3.561132] leds Initialize                                                                                                      
+[    3.564015] buzzer_ctl       initialized                                                                                         
+[    3.567158] exynos_adc_probe, 124                                                                                                
+[    3.570313] exynos_adc_probe, 134                                                                                                
+[    3.573729] exynos_adc_probe, 136                                                                                                
+[    3.576908] adc      initialized                                                                                                 
+[    3.579948] relay_ctl        initialized                                                                                         
+[    3.589371] brd: module loaded                                                                                                   
+[    3.594176] loop: module loaded                                                                                                  
+[    3.595886] pmem: 0 init                                                                                                         
+[    3.598668] pmem_gpu1: 0 init                                                                                                    
+[    3.607989] CAN device driver interface                                                                                          
+[    3.610372] PPP generic driver version 2.4.2                                                                                     
+[    3.614995] usbcore: registered new interface driver dm9601                                                                      
+[    3.620301] usbcore: registered new interface driver dm9620                                                                      
+[    3.625882] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver                                                           
+[    3.632333]                                                                                                                      
+[    3.632336]                                                                                                                      
+[    3.632338]  [usb_host_phy_init]++++++++++++++                                                                                   
+[    3.639793] s5p-ehci s5p-ehci: S5P EHCI Host Controller                                                                          
+[    3.644838] s5p-ehci s5p-ehci: new USB bus registered, assigned bus number 1                                                     
+[    3.651968] s5p-ehci s5p-ehci: irq 134, io mem 0x12580000                                                                        
+[    3.665040] s5p-ehci s5p-ehci: USB 0.0 started, EHCI 1.00                                                                        
+[    3.669088] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice=0300                                        
+[    3.677142] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1                                                   
+[    3.684343] usb usb1: New USB device Class: Class=9, SubClass=0, Protocol=0                                                      
+[    3.691285] usb usb1: Product: S5P EHCI Host Controller                                                                          
+[    3.696492] usb usb1: Manufacturer: Linux 3.0.15 ehci_hcd                                                                        
+[    3.701873] usb usb1: SerialNumber: s5p-ehci                                                                                     
+[    3.706629] hub 1-0:1.0: USB hub found                                                                                           
+[    3.709856] hub 1-0:1.0: 3 ports detected                                                                                        
+[    3.714459] usbcore: registered new interface driver cdc_acm                                                                     
+[    3.719496] cdc_acm: USB Abstract Control Model driver for USB modems and ISDN adapters                                          
+[    3.727480] Initializing USB Mass Storage driver...                                                                              
+[    3.732479] usbcore: registered new interface driver usb-storage                                                                 
+[    3.738330] USB Mass Storage support registered.                                                                                 
+[    3.743174] usbcore: registered new interface driver usbserial                                                                   
+[    3.748746] usbserial: USB Serial Driver core                                                                                    
+[    3.753193] USB Serial support registered for GSM modem (1-port)                                                                 
+[    3.759225] usbcore: registered new interface driver option                                                                      
+[    3.764631] option: v0.7.2:USB Driver for GSM modems                                                                             
+[    3.769792] s3c-udc : S3C HS USB OTG Device Driver,(c) 2008-2009 Samsung Electronics                                             
+[    3.769798] s3c-udc : version 15 March 2009                                                                                      
+[    3.783519] android_usb gadget: Mass Storage Function, version: 2009/09/11                                                       
+[    3.788937] android_usb gadget: Number of LUNs=3                                                                                 
+[    3.793536]  lun0: LUN: removable file: (no medium)                                                                              
+[    3.798396]  lun1: LUN: removable file: (no medium)                                                                              
+[    3.803257]  lun2: LUN: removable file: (no medium)                                                                              
+[    3.808384] android_usb gadget: android_usb ready                                                                                
+[    3.813017] mousedev: could not register psaux device, error: -16                                                                
+[    3.818881] mousedev: PS/2 mouse device common for all mice                                                                      
+[    3.825096] input: gpio-keys as /devices/platform/gpio-keys/input/input0                                                         
+[    3.831760] input: samsung-keypad as /devices/platform/samsung-keypad/input/input1                                               
+[    3.839068] usbcore: registered new interface driver xpad                                                                        
+[    3.844172] usbcore: registered new interface driver usb_acecad                                                                  
+[    3.849955] acecad: v3.2:USB Acecad Flair tablet driver                                                                          
+[    3.855278] usbcore: registered new interface driver aiptek                                                                      
+[    3.860718] aiptek: v2.3 (May 2, 2007):Aiptek HyperPen USB Tablet Driver (Linux 2.6.x)                                           
+[    3.868615] aiptek: Bryan W. Headley/Chris Atenasio/Cedric Brun/Rene van Paassen                                                 
+[    3.876112] usbcore: registered new interface driver gtco                                                                        
+[    3.881377] GTCO usb driver version: 2.00.0006                                                                                   
+[    3.885744] usbcore: registered new interface driver hanwang                                                                     
+[    3.891559] usbcore: registered new interface driver kbtab                                                                       
+[    3.896913] kbtab: v0.0.2:USB KB Gear JamStudio Tablet driver                                                                    
+[    3.902760] usbcore: registered new interface driver wacom                                                                       
+[    3.908111] wacom: v1.52:USB Wacom tablet driver                                                                                 
+[    3.913554] input: TSC2007 Touchscreen as /devices/virtual/input/input2                                                          
+[    3.920555] S3C24XX RTC, (c) 2004,2006 Simtec Electronics                                                                        
+[    3.924732] s3c-rtc s3c64xx-rtc: rtc disabled, re-enabling                                                                       
+[    3.930197] s3c_rtc_gettime() 2076-10-34 17:1:13                                                                                 
+[    3.935117] using rtc device, s3c, for alarms                                                                                    
+[    3.938929] s3c-rtc s3c64xx-rtc: rtc core: registered s3c as rtc0                                                                
+[    3.946221] s5m-rtc s5m-rtc: rtc init                                                                                            
+[    3.948812] s5m_rtc_set_time: 2012/1/1 0:0:0(0)                                                                                  
+[    3.981898] s5m_rtc_read_time: 2012/1/1 0:0:1(0)                                                                                 
+[    3.986144] s5m_rtc_read_alarm: 2000/0/1 0:0:0(-1)                                                                               
+[    3.991333] s5m_rtc_read_time: 2012/1/1 0:0:1(0)                                                                                 
+[    3.994642] s5m-rtc s5m-rtc: rtc core: registered s5m-rtc as rtc1                                                                
+[    4.000946] s5m-rtc s5m-rtc: RTC CHIP NAME: s5m-rtc                                                                              
+[    4.005532] i2c /dev entries driver                                                                                              
+[    4.009873] Linux media interface: v0.10                                                                                         
+[    4.013148] lirc_dev: IR Remote Control driver registered, major 251                                                             
+[    4.019224] IR NEC protocol handler initialized                                                                                  
+[    4.023735] IR RC5(x) protocol handler initialized                                                                               
+[    4.028509] IR RC6 protocol handler initialized                                                                                  
+[    4.033022] IR JVC protocol handler initialized                                                                                  
+[    4.037537] IR Sony protocol handler initialized                                                                                 
+[    4.042137] IR RC5 (streamzap) protocol handler initialized                                                                      
+[    4.047692] IR LIRC bridge handler initialized                                                                                   
+[    4.052118] Linux video capture interface: v2.00                                                                                 
+[    4.056822] ov5640_module_init()->5375 install module                                                                            
+[    4.056826] ov5640_module_init                                                                                                   
+[    4.066506] s3c-csis: Samsung MIPI-CSIS0 driver probed successfully                                                              
+[    4.071935] s3c-csis: Samsung MIPI-CSIS1 driver probed successfully                                                              
+[    4.078279] Initialize JPEG driver                                                                                               
+[    4.081786] s5p-jpeg s5p-jpeg: JPEG driver is registered to /dev/video12                                                         
+[    4.088376] s5p-jpeg s5p-jpeg: JPEG driver is registered to /dev/video11                                                         
+[    4.095130] i2c i2c-0: attached s5p_ddc into i2c adapter successfully                                                            
+[    4.101444] i2c-core: driver [s5p_ddc] using legacy suspend method                                                               
+[    4.107500] i2c-core: driver [s5p_ddc] using legacy resume method                                                                
+[    4.113578] S5P HPD Driver, (c) 2009 Samsung Electronics                                                                         
+[    4.119261] S5P CEC Driver, (c) 2009 Samsung Electronics                                                                         
+[    4.125004] MFC(Multi Function Codec - FIMV v5.x) registered successfully                                                        
+[    4.131408] Samsung Graphics 2D driver, (c) 2011 Samsung Electronics                                                             
+[    4.137773] Mali: init_mali_clock mali_clock c08e8cc4                                                                            
+[    4.145111] Mali: failed to get cpufreq level for 1200MHzMali: Mali device driver  loaded                                        
+[    4.162032] usbcore: registered new interface driver uvcvideo                                                                    
+[    4.167575] USB Video Class driver (v1.1.0)                                                                                      
+[    4.171871] S3C2410 Watchdog Timer, (c) 2004 Simtec Electronics                                                                  
+[    4.177932] s3c2410-wdt s3c2410-wdt: watchdog inactive, reset disabled, irq enabled                                              
+[    4.186003] device-mapper: uevent: version 1.0.3                                                                                 
+[    4.190217] device-mapper: ioctl: 4.20.0-ioctl (2011-02-02) initialised: dm-devel@redhat.com                                     
+[    4.198326] Bluetooth: HCI UART driver ver 2.2                                                                                   
+[    4.202730] Bluetooth: HCI H4 protocol initialized                                                                               
+[    4.207501] Bluetooth: HCI BCSP protocol initialized                                                                             
+[    4.212448] Bluetooth: HCILL protocol initialized                                                                                
+[    4.217135] Bluetooth: HCIATH3K protocol initialized                                                                             
+[    4.222771] cpuidle: using governor ladder                                                                                       
+[    4.227169] cpuidle: using governor menu                                                                                         
+[    4.230187] mshci: Mobile Storage Host Controller Interface driver                                                               
+[    4.236232] mshci: Copyright (c) 2011 Samsung Electronics Co., Ltd                                                               
+[    4.242476] clock source 0: sclk_dwmci (160000000 Hz)                                                                            
+[    4.247436] dw_mmc dw_mmc: clock source 0: sclk_dwmci (160000000 Hz)                                                             
+[    4.253992] mmc0: Version ID 0x5342240a.                                                                                         
+[    4.257672] mjdbg: cmu_max_clcok:800000000                                                                                       
+[    4.261750] mjdbg: host->max_clk: 800000000                                                                                      
+[    4.266133] mmc0: FIFO WMARK FOR RX 0x11 WX 0x1. ###########                                                                     
+[    4.272944] mmc0: MSHCI controller on samsung-mshci [dw_mmc] using IDMA                                                          
+[    4.278368] sdhci: Secure Digital Host Controller Interface driver                                                               
+[    4.284320] sdhci: Copyright(c) Pierre Ossman                                                                                    
+[    4.286025] mmc0:mshci_set_clock, 400000@ration:4,11[mjdbg] cmu_set_clock: 400000                                                
+[    4.296196] s3c-sdhci s3c-sdhci.2: clock source 0: sclk_mmc (10666666 Hz)                                                        
+[    4.300057] *******mmc0: inserted!!!!!******                                                                                     
+[    4.307151] mmc0: cmd 52 response timeout error                                                                                  
+[    4.312711] mmc1: no vmmc regulator found                                                                                        
+[    4.315655] mmc0: cmd 52 response timeout error                                                                                  
+[    4.321369] mmc1: SDHCI controller on samsung-hsmmc [s3c-sdhci.2] using ADMA                                                     
+[    4.327244] wake enabled for irq 359                                                                                             
+[    4.330994] s3c-sdhci s3c-sdhci.3: clock source 0: sclk_mmc (10666666 Hz)                                                        
+[    4.337529] mmc0: cmd 8 response timeout error                                                                                   
+[    4.342986] sdhci_s3c_probe: set MMC_PM_IGNORE_PM_NOTIFY for mmc2 pm_flags                                                       
+[    4.348813] mmc0: cmd 5 response timeout error                                                                                   
+[    4.354242] sdhci_s3c_probe: set MMC_PM_KEEP_POWER | MMC_PM_WAKE_SDIO_IRQ for mmc2 pm_caps                                       
+[    4.361484] mmc0: cmd 5 response timeout error                                                                                   
+[    4.366927] mmc2: no vmmc regulator found                                                                                        
+[    4.369894] mmc0: cmd 5 response timeout error                                                                                   
+[    4.375527] mmc2: SDHCI controller on samsung-hsmmc [s3c-sdhci.3] using ADMA                                                     
+[    4.381363] mmc0: cmd 5 response timeout error                                                                                   
+[    4.387599] mmc0: cmd 55 response timeout error                                                                                  
+[    4.392466] mmc0: cmd 55 response timeout error                                                                                  
+[    4.397336] mmc0: cmd 55 response timeout error                                                                                  
+[    4.402207] mmc0: cmd 55 response timeout error                                                                                  
+[    4.404580] usbcore: registered new interface driver usbhid                                                                      
+[    4.404587] usbhid: USB HID core driver                                                                                          
+[    4.404949] GPS: mt3326_gps_power: Switching GPS device on                                                                       
+[    4.404957] GPS: mt3326_gps_power: ignore power control: 1                                                                       
+[    4.404963] GPS: mt3326_gps_probe: Registering chardev                                                                           
+[    4.404975] GPS: mt3326_gps_probe: major: 249, minor: 0                                                                          
+[    4.405240] GPS: mt3326_gps_probe: Done                                                                                          
+[    4.406464] Samsung Audio Subsystem Driver, (c) 2011 Samsung Electronics                                                         
+[    4.406524] audss_init: RCLK SRC[busclk]                                                                                         
+[    4.503642] mmc0:mshci_set_clock, 50000000@ration:4,11[mjdbg] cmu_set_clock: 50000000                                            
+[    4.521396] mmc0: new high speed DDR MMC card at address 0001                                                                    
+[    4.526022] mmcblk0: mmc0:0001 8WPD3R 7.28 GiB                                                                                   
+[    4.532000]  mmcblk0: p1 p2 p3 p4                                                                                                
+[    4.560077] *******mmc2: inserted!!!!!******                                                                                     
+[    4.583629] asoc: wm8960-hifi <-> samsung-i2s.0 mapping ok                                                                       
+[    4.588291] Samsung SRP driver, (c) 2010 Samsung Electronics                                                                     
+[    4.603966] SRP: Driver successfully probed                                                                                      
+[    4.606838] ALSA device list:                                                                                                    
+[    4.609626]   #0: TOPEET-WM8960                                                                                                  
+[    4.612777] *******mmc2: inserted!!!!!******                                                                                     
+[    4.620118] GACT probability NOT on                                                                                              
+[    4.622137] Mirror/redirect action on                                                                                            
+[    4.625798] u32 classifier                                                                                                       
+[    4.628469]     Actions configured                                                                                               
+[    4.631870] Netfilter messages via NETLINK v0.30.                                                                                
+[    4.636618] nf_conntrack version 0.5.0 (10101 buckets, 40404 max)                                                                
+[    4.643414] ctnetlink v0.93: registering with nfnetlink.                                                                         
+[    4.647955] NF_TPROXY: Transparent proxy support initialized, version 4.1.0                                                      
+[    4.654879] NF_TPROXY: Copyright (c) 2006-2007 BalaBit IT Ltd.                                                                   
+[    4.660091] *******mmc2: inserted!!!!!******                                                                                     
+[    4.665265] xt_time: kernel timezone is -0000                                                                                    
+[    4.670735] ip_tables: (C) 2000-2006 Netfilter Core Team                                                                         
+[    4.674691] arp_tables: (C) 2002 David S. Miller                                                                                 
+[    4.679229] TCP cubic registered                                                                                                 
+[    4.683291] NET: Registered protocol family 10                                                                                   
+[    4.690104] Mobile IPv6                                                                                                          
+[    4.691091] ip6_tables: (C) 2000-2006 Netfilter Core Team                                                                        
+[    4.696671] IPv6 over IPv4 tunneling driver                                                                                      
+[    4.700132] *******mmc2: inserted!!!!!******                                                                                     
+[    4.709484] NET: Registered protocol family 17                                                                                   
+[    4.712487] NET: Registered protocol family 15                                                                                   
+[    4.716890] can: controller area network core (rev 20090105 abi 8)                                                               
+[    4.723119] NET: Registered protocol family 29                                                                                   
+[    4.727482] can: raw protocol (rev 20090105)                                                                                     
+[    4.731837] Bluetooth: RFCOMM TTY layer initialized                                                                              
+[    4.736603] Bluetooth: RFCOMM socket layer initialized                                                                           
+[    4.741751] Bluetooth: RFCOMM ver 1.11                                                                                           
+[    4.745448] Bluetooth: BNEP (Ethernet Emulation) ver 1.3                                                                         
+[    4.750741] Bluetooth: BNEP filters: protocol multicast                                                                          
+[    4.755968] NET: Registered protocol family 35                                                                                   
+[    4.760657] EXYNOS4X12: Adaptive Support Voltage init                                                                            
+[    4.765415] EXYNOS4X12: IDS : 13 HPM : 19 RESULT : 3                                                                             
+[    4.770362] exynos4x12_set_abb:0x0, 0x0, 0x0, 0x0, 0x80000088                                                                    
+[    4.776085] VFP support v0.3: implementor 41 architecture 3 part 30 variant 9 rev 4                                              
+[    4.783767] Registering SWP/SWPB emulation handler                                                                               
+[    4.788506] DVFS : VDD_ARM Voltage table set with 3 Group                                                                        
+[    4.793880] exynos4x12_volt_table[0]:0                                                                                           
+[    4.797612] exynos4x12_volt_table[1]:1300000                                                                                     
+[    4.801866] exynos4x12_volt_table[2]:1300000                                                                                     
+[    4.806118] exynos4x12_volt_table[3]:1225000                                                                                     
+[    4.810371] exynos4x12_volt_table[4]:1137500                                                                                     
+[    4.814612] exynos4x12_volt_table[5]:1087500                                                                                     
+[    4.818877] exynos4x12_volt_table[6]:1050000                                                                                     
+[    4.823135] exynos4x12_volt_table[7]:1012500                                                                                     
+[    4.827384] exynos4x12_volt_table[8]:987500                                                                                      
+[    4.831550] exynos4x12_volt_table[9]:975000                                                                                      
+[    4.835716] exynos4x12_volt_table[10]:950000                                                                                     
+[    4.839958] exynos4x12_volt_table[11]:925000                                                                                     
+[    4.844224] exynos4x12_volt_table[12]:900000                                                                                     
+[    4.848476] exynos4x12_volt_table[13]:900000                                                                                     
+[    4.852729] exynos4x12_cpufreq_init:topeet pop 1G                                                                                
+[    4.857779] DVFS : VDD_INT Voltage table set with 3 Group                                                                        
+[    4.940211] exynos4_integrated_dvfs_hotplug_init, max(1400000),min(200000)                                                       
+[    4.949232] regulator_init_complete: VDD18_MIPI: incomplete constraints, leaving on                                              
+[    4.957242] regulator_init_complete: VDD10_MIPI: incomplete constraints, leaving on                                              
+[    4.963906] regulator_init_complete: VDD18_2M: incomplete constraints, leaving on                                                
+[    4.972722] regulator_init_complete: vdd_int range: incomplete constraints, leaving on                                           
+[    4.979649] regulator_init_complete: vdd_arm range: incomplete constraints, leaving on                                           
+[    4.987549] regulator_init_complete: vdd_mif range: incomplete constraints, leaving on                                           
+[    4.995498] USB_DEVICE_ATTACHED                                                                                                  
+[    5.110599] exynos_usb_Device: Exynos USB Device Driver                                                                          
+[    5.114355] value1 = 1, value2 = 0, type = 0x2                                                                                   
+[    5.123793] ==ft5x0x_ts_init: reset==                                                                                            
+[    5.154780] android_work: sent uevent USB_STATE=CONNECTED                                                                        
+[    5.253508] android_work: sent uevent USB_STATE=DISCONNECTED                                                                     
+[    5.325041] usb 1-3: new high speed USB device number 2 using s5p-ehci                                                           
+[    5.330239] android_work: sent uevent USB_STATE=CONNECTED                                                                        
+[    5.460485] usb 1-3: New USB device found, idVendor=0424, idProduct=3503, bcdDevice=a1a0                                         
+[    5.467119] usb 1-3: New USB device strings: Mfr=0, Product=0, SerialNumber=0                                                    
+[    5.474247] usb 1-3: New USB device Class: Class=9, SubClass=0, Protocol=2                                                       
+[    5.481643] hub 1-3:1.0: USB hub found                                                                                           
+[    5.484965] hub 1-3:1.0: 3 ports detected                                                                                        
+[    5.524351] android_work: sent uevent USB_STATE=DISCONNECTED                                                                     
+[    5.601751] android_work: sent uevent USB_STATE=CONNECTED                                                                        
+[    5.630362] input: ft5x0x_ts as /devices/virtual/input/input3                                                                    
+[    5.640173] read reg (0xa6) error, -6                                                                                            
+[    5.642356] ft5x0x_ts 3-0038: chip not found                                                                                     
+[    5.770415] usb 1-3.2: new high speed USB device number 3 using s5p-ehci                                                         
+[    5.790997] android_work: sent uevent USB_STATE=DISCONNECTED                                                                     
+[    5.801044] ft5x0x_ts 3-0038: probe ft5x0x TouchScreen failed, -6                                                                
+[    5.807615] s5m_rtc_read_time: 2012/1/1 0:0:2(0)                                                                                 
+[    5.810857] s3c_rtc_settime() 2012-1-1 0:0:2                                                                                     
+[    5.815159] s5m_rtc_set_time: 2012/1/1 0:0:2(0)                                                                                  
+[    5.845205] s5m-rtc s5m-rtc: setting system clock to 2012-01-01 00:00:02 UTC (1325376002)                                        
+[    5.853570] FIMC0 registered successfully                                                                                        
+[    5.857519] FIMC1 registered successfully                                                                                        
+[    5.861880] FIMC2 registered successfully                                                                                        
+[    5.866120] FIMC3 registered successfully                                                                                        
+[    5.868760] android_work: sent uevent USB_STATE=CONNECTED                                                                        
+[    5.875096] S5P TVOUT Driver v3.0 (c) 2010 Samsung Electronics                                                                   
+[    5.880671] usb 1-3.2: config 1 interface 0 altsetting 0 endpoint 0x83 has an invalid bInterval 0, changing to 9                 
+[    5.941938] EXT4-fs (mmcblk0p2): mounted filesystem with ordered data mode. Opts: (null)                                         
+[    5.948935] VFS: Mounted root (ext4 filesystem) on device 179:2.                                                                 
+[    5.955121] Freeing init memory: 216K                                                                                            
+[    5.975094] usb 1-3.2: New USB device found, idVendor=0a46, idProduct=9621, bcdDevice=0101                                       
+[    5.982034] usb 1-3.2: New USB device strings: Mfr=1, Product=2, SerialNumber=3                                                  
+[    5.991619] usb 1-3.2: New USB device Class: Class=0, SubClass=0, Protocol=0                                                     
+[    6.008754] [dm962] Linux Driver = V2.45                                                                                         
+[    6.013083] ++++++[dm962]+++++ dm_read_reg() 0x29 0x0a                                                                           
+[    6.017279] ++++++[dm962]+++++ dm_read_reg() 0x28 0x46                                                                           
+[    6.023161] ++++++[dm962]+++++ dm_read_reg() 0x2b 0x96                                                                           
+[    6.027435] ++++++[dm962]+++++ dm_read_reg() 0x2a 0x21                                                                           
+[    6.038835] ++++++[dm962]+++++ dm_read_reg() 0xF2 0x00                                                                           
+[    6.042681] ++++++[dm962]+++++  [Analysis.2] 0xF2, D[7] 0 OK                                                                     
+[    6.050174] ++++++[dm962]+++++  [Analysis.2] 0xF2, D[6] 0 OK                                                                     
+[    6.054411] ++++++[dm962]+++++  [Analysis.2] 0xF2, D[5] 0 EP1: Empty                                                             
+[    6.060818] ++++++[dm962]+++++  [Analysis.2] 0xF2, D[3] 0 OK                                                                     
+[    6.066433] ++++++[dm962]+++++  [Analysis.2] 0xF2, D[2] 0 OK                                                                     
+[    6.072074] ++++++[dm962]+++++  [Analysis.2] 0xF2, D[1] 0 OK                                                                     
+[    6.077716] ++++++[dm962]+++++  [Analysis.2] 0xF2, D[0] 0 Status: TX buffer 0 pkts                                               
+[    6.092505] [dm96] Chk mac addr 00:00:ff:ff:00:00                                                                                
+[    6.095830] [dm96] [00] [00] [ff] [ff] [00] [00]                                                                                 
+[    6.100680] [dm96] 9620 tx_fix_mod (DM9_NREV= 2)                                                                                 
+[    6.105162] [dm96] Fixme: work around for 9620 mode                                                                              
+[    6.108510] android_work: sent uevent USB_STATE=DISCONNECTED                                                                     
+[    6.115577] [dm96] Add tx_fixup() debug...                                                                                       
+[    6.120481] [dm96] 9620 Mode = 128                                                                                               
+[    6.150815] dm9620 1-3.2:1.0: eth0: register 'dm9620' at usb-s5p-ehci-3.2, Davicom DM9620 USB Ethernet, 00:00:ff:ff:00:00        
+[    7.125014] CPU1: shutdown                                                                                                       
+Try to bring eth0 interface up......grep: /etc/mtab: No such file or directory                                                      
+[    7.402475] [dm96] Set mac addr 08:90:90:90:90:90                                                                                
+[    7.405801] [dm96] [08] [90] [90] [90] [90] [90]                                                                                 
+[    7.425591] dm9620 1-3.2:1.0: eth0: link down                                                                                    
+[    7.432896] link_reset() speed: 10 duplex: 0                                                                                     
+[    7.440546] ADDRCONF(NETDEV_UP): eth0: link is not ready                                                                         
+Done                                                                                                                                
+                                                                                                                                    
+Please press Enter to activate this console.                                                                                        
+[root@iTOP-4412]#                                                                                                                   
+[root@iTOP-4412]#                                                                                                                   
+[root@iTOP-4412]#                                                                                                                   
+[root@iTOP-4412]#                                                                                                                   
+[root@iTOP-4412]#                                                                                                                   
+[root@iTOP-4412]# [   10.423683] CPU2: shutdown                                                                                     
+                                                                                                                                    
+[root@iTOP-4412]#                                                                                                                   
+[root@iTOP-4412]# [   64.640752] failed to copy MFC F/W during init                                                                 
+[  241.255081] INFO: task kinteractiveup:725 blocked for more than 120 seconds.                                                     
+[  241.260752] "echo 0 > /proc/sys/kernel/hung_task_timeout_secs" disables this message.                                            
+[  241.268629] kinteractiveup  D c059c754     0   725      2 0x00000000                                                             
+[  241.274819] Backtrace:                                                                                                           
+[  241.277285] [<c059c52c>] (__schedule+0x0/0x664) from [<c059cd6c>] (schedule+0x50/0x68)                                           
+[  241.285207] [<c059cd1c>] (schedule+0x0/0x68) from [<c009f51c>] (kthread+0x78/0x98)                                               
+[  241.292870] [<c009f4a4>] (kthread+0x0/0x98) from [<c00848bc>] (do_exit+0x0/0x754)                                                
+[  241.300197]  r7:00000013 r6:c00848bc r5:c009f4a4 r4:d6041ef8                                                                     
+[  241.305808] INFO: task kadaptiveup:726 blocked for more than 120 seconds.                                                        
+[  241.312594] "echo 0 > /proc/sys/kernel/hung_task_timeout_secs" disables this message.                                            
+[  241.320475] kadaptiveup     D c059c754     0   726      2 0x00000000                                                             
+[  241.326752] Backtrace:                                                                                                           
+[  241.329178] [<c059c52c>] (__schedule+0x0/0x664) from [<c059cd6c>] (schedule+0x50/0x68)                                           
+[  241.337104] [<c059cd1c>] (schedule+0x0/0x68) from [<c009f51c>] (kthread+0x78/0x98)                                               
+[  241.344645] [<c009f4a4>] (kthread+0x0/0x98) from [<c00848bc>] (do_exit+0x0/0x754)                                                
+[  241.352139]  r7:00000013 r6:c00848bc r5:c009f4a4 r4:d6041f00                                                                     
+                                                                                                                                    
+[root@iTOP-4412]#                                                                                                                   
+[root@iTOP-4412]#                                                                                                                   
+[root@iTOP-4412]#                                                                                                                   
+[root@iTOP-4412]# ls                                                                                                                
+bin      etc      linuxrc  proc     sys      usr                                                                                    
+dev      lib      mnt      sbin     tmp      var                                                                                    
+[root@iTOP-4412]#                                                                                                                   
+[root@iTOP-4412]#                                                                                                                   
+[root@iTOP-4412]#                                                                                                                   
+[root@iTOP-4412]#                                                                                                                   
+[root@iTOP-4412]#                                                                                                                   
+[root@iTOP-4412]# ls                                                                                                                
+bin      etc      linuxrc  proc     sys      usr                                                                                    
+dev      lib      mnt      sbin     tmp      var                                                                                    
+[root@iTOP-4412]# ls                                                                                                                
+bin      etc      linuxrc  proc     sys      usr                                                                                    
+dev      lib      mnt      sbin     tmp      var                                                                                    
+[root@iTOP-4412]# ls                                                                                                                
+bin      etc      linuxrc  proc     sys      usr                                                                                    
+dev      lib      mnt      sbin     tmp      var                                                                                    
+[root@iTOP-4412]#                                                                                                                   
+[root@iTOP-4412]#                                                                                                                   
+[root@iTOP-4412]#                                                                                                                   
+[root@iTOP-4412]#                                                                                                                   
+[root@iTOP-4412]#                                                                                                                   
+[root@iTOP-4412]# reboot                                                                                                            
+[root@iTOP-4412]# umount: none busy - remounted read-only                                                                           
+umount: can't remount /dev/root read-only                                                                                           
+umount: can't remount rootfs read-only                                                                                              
+swapoff: /etc/fstab: No such file or directory                                                                                      
+The system is going down NOW!                                                                                                       
+Sent SIGTERM to all processes                                                                                                       
+Sent SIGKILL to [  339.718723] REBOOT Notifier for CPUFREQ                                                                          
+[  339.732374] REBOOT Notifier for BUSFREQ                                                                                          
+[  339.734789] GPS: mt3326_gps_shutdown: Shutting down                                                                              
+[  339.739610] GPS: mt3326_gps_power: Switching GPS device off                                                                      
+[  339.745161] GPS: mt3326_gps_power: null pointer!!                                                                                
+[  339.749845] Mali: Mali shutdown!!                                                                                                
+[  339.753456] s5m-rtc s5m-rtc: s5m_rtc_enable_smpl: disable SMPL                                                                   
+[  339.760212] s5m_rtc_enable_smpl: WTSR_SMPL(0x00)                                                                                 
+[  339.764347] RestOK                                                                                                               
+                                                                                                                                    
+U-Boot 2010.03-dirty (Nov 13 2015 - 02:04:01) for iTOP-4412 Android                                                                 
+                                                                                                                                    
+                                                                                                                                    
+CPU:    SMDK4412-AP1.1 [e4412211]                                                                                                   
+        APLL = 1000MHz, MPLL = 800MHz                                                                                               
+        ARM_CLOCK = 1000MHz                                                                                                         
+PMIC:   S5M8767(VER5.0)                                                                                                             
+Board:  iTOP-4412Quad                                                                                                               
+POP type: POP for C220                                                                                                              
+DRAM:   1023 MB                                                                                                                     
+MMC:   Count: 100                                                                                                                   
+max_emmc_clock:40 MHZ                                                                                                               
+Set CLK to 400 KHz                                                                                                                  
+EMMC CLOCK OUTPUT:: 400KHz -[div:50]                                                                                                
+response timeout error : 00000104 cmd 8                                                                                             
+response timeout error : 00000104 cmd 55                                                                                            
+max_emmc_clock:40 MHZ                                                                                                               
+Input CLK [ 50 MHz] is higher than limit [40 MHZ]                                                                                   
+Set CLK to 40000 KHz                                                                                                                
+EMMC clock output: 40000 KHz                                                                                                        
+max_emmc_clock:40 MHZ                                                                                                               
+Input CLK [ 50 MHz] is higher than limit [40 MHZ]                                                                                   
+Set CLK to 40000 KHz                                                                                                                
+EMMC clock output: 40000 KHz                                                                                                        
+MMC0:   7456 MB                                                                                                                     
+SD sclk_mmc is 400K HZ                                                                                                              
+raise: Signal # 8 caught                                                                                                            
+raise: Signal # 8 caught                                                                                                            
+MMC1:   0 MB                                                                                                                        
+0 MB                                                                                                                                
+*** Warning - using default environment                                                                                             
+                                                                                                                                    
+In:    serial                                                                                                                       
+Out:   serial                                                                                                                       
+Err:   serial                                                                                                                       
+eMMC OPEN Success.!!                                                                                                                
+                        !!!Notice!!!                                                                                                
+!You must close eMMC boot Partition after all image writing!                                                                        
+!eMMC boot partition has continuity at image writing time.!                                                                         
+!So, Do not close boot partition, Before, all images is written.!                                                                   
+                                                                                                                                    
+MMC read: dev # 0, block # 48, count 16 ...16 blocks read: OK                                                                       
+eMMC CLOSE Success.!!                                                                                                               
+                                                                                                                                    
+                                                                                                                                    
+Checking Boot Mode ... EMMC4.41                                                                                                     
+SYSTEM ENTER NORMAL BOOT MODE                                                                                                       
+Hit any key to stop autoboot:  0                                                                                                    
+iTOP-4412 #                                                                                                                         
+iTOP-4412 #                                                                                                                         
+iTOP-4412 #                                                                                                                         
+iTOP-4412 #                                                                                                                         
+iTOP-4412 #                                                                                                                         
+iTOP-4412 #                                                                                                                         
+iTOP-4412 #                                                                                                                         
+iTOP-4412 #                                                                                                                         
+iTOP-4412 #                                                                                                                         
+iTOP-4412 #                                                                                                                         
+iTOP-4412 #                                                                                                                         
+iTOP-4412 #                                                                                                                         
+iTOP-4412 #                                                                                                                         
+iTOP-4412 #                                                                                                                         
+iTOP-4412 # fastboot                                                                                                                
+[Partition table on MoviNAND]                                                                                                       
+ptn 0 name='bootloader' start=0x0 len=N/A (use hard-coded info. (cmd: movi))                                                        
+ptn 1 name='kernel' start=N/A len=N/A (use hard-coded info. (cmd: movi))                                                            
+ptn 2 name='ramdisk' start=N/A len=0x300000(~3072KB) (use hard-coded info. (cmd: movi))                                             
+ptn 3 name='Recovery' start=N/A len=0x600000(~6144KB) (use hard-coded info. (cmd: movi))                                            
+ptn 4 name='system' start=0x15DDA00 len=0x403B0600(~1052353KB)                                                                      
+ptn 5 name='userdata' start=0x4198E000 len=0x403B0600(~1052353KB)                                                                   
+ptn 6 name='cache' start=0x81D3E600 len=0x1321EC00(~313467KB)                                                                       
+ptn 7 name='fat' start=0x94F5D200 len=0x3BAFB600(~977901KB)                                                                         
+Received 17 bytes: download:004fedfd                                                                                                
+Starting download of 5238269 bytes                                                                                                  
+....                                                                                                                                
+downloading of 5238269 bytes finished                                                                                               
+Received 12 bytes: flash:kernel                                                                                                     
+flashing 'kernel'                                                                                                                   
+writing kernel.. 1120, 12288                                                                                                        
+MMC write: dev # 0, block # 1120, count 12288. 12288 blocks write finish                                                            
+12288 blocks written: OK                                                                                                            
+completed                                                                                                                           
+partition 'kernel' flashed                                                                                                          
+Received 6 bytes: reboot                                                                                                            
+reset...                                                                                                                            
+                                                                                                                                    
+OK                                                                                                                                  
+                                                                                                                                    
+U-Boot 2010.03-dirty (Nov 13 2015 - 02:04:01) for iTOP-4412 Android                                                                 
+                                                                                                                                    
+                                                                                                                                    
+CPU:    SMDK4412-AP1.1 [e4412211]                                                                                                   
+        APLL = 1000MHz, MPLL = 800MHz                                                                                               
+        ARM_CLOCK = 1000MHz                                                                                                         
+PMIC:   S5M8767(VER5.0)                                                                                                             
+Board:  iTOP-4412Quad                                                                                                               
+POP type: POP for C220                                                                                                              
+DRAM:   1023 MB                                                                                                                     
+MMC:   Count: 100                                                                                                                   
+max_emmc_clock:40 MHZ                                                                                                               
+Set CLK to 400 KHz                                                                                                                  
+EMMC CLOCK OUTPUT:: 400KHz -[div:50]                                                                                                
+response timeout error : 00000104 cmd 8                                                                                             
+response timeout error : 00000104 cmd 55                                                                                            
+max_emmc_clock:40 MHZ                                                                                                               
+Input CLK [ 50 MHz] is higher than limit [40 MHZ]                                                                                   
+Set CLK to 40000 KHz                                                                                                                
+EMMC clock output: 40000 KHz                                                                                                        
+max_emmc_clock:40 MHZ                                                                                                               
+Input CLK [ 50 MHz] is higher than limit [40 MHZ]                                                                                   
+Set CLK to 40000 KHz                                                                                                                
+EMMC clock output: 40000 KHz                                                                                                        
+MMC0:   7456 MB                                                                                                                     
+SD sclk_mmc is 400K HZ                                                                                                              
+raise: Signal # 8 caught                                                                                                            
+raise: Signal # 8 caught                                                                                                            
+MMC1:   0 MB                                                                                                                        
+0 MB                                                                                                                                
+*** Warning - using default environment                                                                                             
+                                                                                                                                    
+In:    serial                                                                                                                       
+Out:   serial                                                                                                                       
+Err:   serial                                                                                                                       
+eMMC OPEN Success.!!                                                                                                                
+                        !!!Notice!!!                                                                                                
+!You must close eMMC boot Partition after all image writing!                                                                        
+!eMMC boot partition has continuity at image writing time.!                                                                         
+!So, Do not close boot partition, Before, all images is written.!                                                                   
+                                                                                                                                    
+MMC read: dev # 0, block # 48, count 16 ...16 blocks read: OK                                                                       
+eMMC CLOSE Success.!!                                                                                                               
+                                                                                                                                    
+                                                                                                                                    
+Checking Boot Mode ... EMMC4.41                                                                                                     
+SYSTEM ENTER NORMAL BOOT MODE                                                                                                       
+Hit any key to stop autoboot:  0                                                                                                    
+reading kernel.. 1120, 12288                                                                                                        
+MMC read: dev # 0, block # 1120, count 12288 ...12288 blocks read: OK                                                               
+completed                                                                                                                           
+reading RFS.. 13408, 2048                                                                                                           
+MMC read: dev # 0, block # 13408, count 2048 ...2048 blocks read: OK                                                                
+completed                                                                                                                           
+Boot with zImage                                                                                                                    
+Wrong Ramdisk Image Format                                                                                                          
+[err] boot_get_ramdisk                                                                                                              
+                                                                                                                                    
+Starting kernel ...                                                                                                                 
+                                                                                                                                    
+[    0.000000] Booting Linux on physical CPU 0xa00                                                                                  
+[    0.000000] Linux version 4.19.44 (root@ubuntu) (gcc version 5.4.1 20160919 (release) [ARM/embedded-5-branch revision 240496] (GN
+U Tools for ARM Embedded Processors)) #2 SMP PREEMPT Sat Jun 22 08:56:32 CST 2019                                                   
+[    0.000000] CPU: ARMv7 Processor [413fc090] revision 0 (ARMv7), cr=10c5387d                                                      
+[    0.000000] CPU: PIPT / VIPT nonaliasing data cache, VIPT aliasing instruction cache                                             
+[    0.000000] OF: fdt: Machine model: TOPEET iTop 4412 Elite board based on Exynos4412                                             
+[    0.000000] Memory policy: Data cache writealloc                                                                                 
+[    0.000000] Reserved memory: created DMA memory pool at 0x7f700000, size 8 MiB                                                   
+[    0.000000] OF: reserved mem: initialized node region_mfc_right, compatible id shared-dma-pool                                   
+[    0.000000] Reserved memory: created DMA memory pool at 0x7d300000, size 36 MiB                                                  
+[    0.000000] OF: reserved mem: initialized node region_mfc_left, compatible id shared-dma-pool                                    
+[    0.000000] cma: Reserved 96 MiB at 0x77000000                                                                                   
+[    0.000000] Samsung CPU ID: 0xe4412211                                                                                           
+[    0.000000] Running under secure firmware.                                                                                       
+[    0.000000] random: get_random_bytes called from start_kernel+0xa0/0x4a4 with crng_init=0                                        
+[    0.000000] percpu: Embedded 18 pages/cpu s42240 r8192 d23296 u73728                                                             
+[    0.000000] Built 1 zonelists, mobility grouping on.  Total pages: 249088                                                        
+[    0.000000] Kernel command line: root=/dev/mmcblk0p2 rw rootfstype=ext4 rootdelay=1 rootwait                                     
+[    0.000000] Dentry cache hash table entries: 131072 (order: 7, 524288 bytes)                                                     
+[    0.000000] Inode-cache hash table entries: 65536 (order: 6, 262144 bytes)                                                       
+[    0.000000] Memory: 874660K/1002496K available (8192K kernel code, 565K rwdata, 2636K rodata, 1024K init, 7495K bss, 29532K reser
+ved, 98304K cma-reserved, 117760K highmem)                                                                                          
+[    0.000000] Virtual kernel memory layout:                                                                                        
+[    0.000000]     vector  : 0xffff0000 - 0xffff1000   (   4 kB)                                                                    
+[    0.000000]     fixmap  : 0xffc00000 - 0xfff00000   (3072 kB)                                                                    
+[    0.000000]     vmalloc : 0xf0800000 - 0xff800000   ( 240 MB)                                                                    
+[    0.000000]     lowmem  : 0xc0000000 - 0xf0000000   ( 768 MB)                                                                    
+[    0.000000]     pkmap   : 0xbfe00000 - 0xc0000000   (   2 MB)                                                                    
+[    0.000000]     modules : 0xbf000000 - 0xbfe00000   (  14 MB)                                                                    
+[    0.000000]       .text : 0x(ptrval) - 0x(ptrval)   (9184 kB)                                                                    
+[    0.000000]       .init : 0x(ptrval) - 0x(ptrval)   (1024 kB)                                                                    
+[    0.000000]       .data : 0x(ptrval) - 0x(ptrval)   ( 566 kB)                                                                    
+[    0.000000]        .bss : 0x(ptrval) - 0x(ptrval)   (7496 kB)                                                                    
+[    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=4, Nodes=1                                                           
+[    0.000000] Running RCU self tests                                                                                               
+[    0.000000] rcu: Preemptible hierarchical RCU implementation.                                                                    
+[    0.000000] rcu:     RCU lockdep checking is enabled.                                                                            
+[    0.000000] rcu:     RCU restricting CPUs from NR_CPUS=8 to nr_cpu_ids=4.                                                        
+[    0.000000]  Tasks RCU enabled.                                                                                                  
+[    0.000000] rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=4                                                         
+[    0.000000] NR_IRQS: 16, nr_irqs: 16, preallocated irqs: 16                                                                      
+[    0.000000] L2C: platform modifies aux control register: 0x02070000 -> 0x3e470001                                                
+[    0.000000] L2C: platform provided aux values permit register corruption.                                                        
+[    0.000000] L2C: DT/platform modifies aux control register: 0x02070000 -> 0x3e470001                                             
+[    0.000000] L2C-310 enabling early BRESP for Cortex-A9                                                                           
+[    0.000000] L2C-310: enabling full line of zeros but not enabled in Cortex-A9                                                    
+[    0.000000] L2C-310 ID prefetch enabled, offset 8 lines                                                                          
+[    0.000000] L2C-310 dynamic clock gating enabled, standby mode enabled                                                           
+[    0.000000] L2C-310 cache controller enabled, 16 ways, 1024 kB                                                                   
+[    0.000000] L2C-310: CACHE_ID 0x4100c4c8, AUX_CTRL 0x7e470001                                                                    
+[    0.000000] Exynos4x12 clocks: sclk_apll = 500000000, sclk_mpll = 800000000                                                      
+[    0.000000]  sclk_epll = 96000000, sclk_vpll = 350000000, arm_clk = 1000000000                                                   
+[    0.000000] Switching to timer-based delay loop, resolution 41ns                                                                 
+[    0.000000] clocksource: mct-frc: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 79635851949 ns                           
+[    0.000005] sched_clock: 32 bits at 24MHz, resolution 41ns, wraps every 89478484971ns                                            
+[    0.000485] Console: colour dummy device 80x30                                                                                   
+[    0.003228] console [tty0] enabled                                                                                               
+[    0.003269] Lock dependency validator: Copyright (c) 2006 Red Hat, Inc., Ingo Molnar                                             
+[    0.003339] ... MAX_LOCKDEP_SUBCLASSES:  8                                                                                       
+[    0.003382] ... MAX_LOCK_DEPTH:          48                                                                                      
+[    0.003426] ... MAX_LOCKDEP_KEYS:        8191                                                                                    
+[    0.003470] ... CLASSHASH_SIZE:          4096                                                                                    
+[    0.003515] ... MAX_LOCKDEP_ENTRIES:     32768                                                                                   
+[    0.003559] ... MAX_LOCKDEP_CHAINS:      65536                                                                                   
+[    0.003604] ... CHAINHASH_SIZE:          32768                                                                                   
+[    0.003649]  memory used by lock dependency info: 4655 kB                                                                        
+[    0.003700]  per task-struct memory footprint: 1536 bytes                                                                        
+[    0.003816] Calibrating delay loop (skipped), value calculated using timer frequency.. 48.00 BogoMIPS (lpj=240000)               
+[    0.003918] pid_max: default: 32768 minimum: 301                                                                                 
+[    0.004270] Mount-cache hash table entries: 2048 (order: 1, 8192 bytes)                                                          
+[    0.004342] Mountpoint-cache hash table entries: 2048 (order: 1, 8192 bytes)                                                     
+[    0.006252] CPU: Testing write buffer coherency: ok                                                                              
+[    0.006363] CPU0: Spectre v2: using BPIALL workaround                                                                            
+[    0.007638] CPU0: thread -1, cpu 0, socket 10, mpidr 80000a00                                                                    
+[    0.060076] Setting up static identity map for 0x40100000 - 0x40100060                                                           
+[    0.080010] rcu: Hierarchical SRCU implementation.                                                                               
+[    0.130014] smp: Bringing up secondary CPUs ...                                                                                  
+[    0.210545] CPU1: thread -1, cpu 1, socket 10, mpidr 80000a01                                                                    
+[    0.210555] CPU1: Spectre v2: using BPIALL workaround                                                                            
+[    0.290355] CPU2: thread -1, cpu 2, socket 10, mpidr 80000a02                                                                    
+[    0.290364] CPU2: Spectre v2: using BPIALL workaround                                                                            
+[    0.370361] CPU3: thread -1, cpu 3, socket 10, mpidr 80000a03                                                                    
+[    0.370369] CPU3: Spectre v2: using BPIALL workaround                                                                            
+[    0.370830] smp: Brought up 1 node, 4 CPUs                                                                                       
+[    0.370891] SMP: Total of 4 processors activated (192.00 BogoMIPS).                                                              
+[    0.370962] CPU: All CPU(s) started in SVC mode.                                                                                 
+[    0.373573] devtmpfs: initialized                                                                                                
+[    0.413719] VFP support v0.3: implementor 41 architecture 3 part 30 variant 9 rev 4                                              
+[    0.415843] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 19112604462750000 ns                     
+[    0.415987] futex hash table entries: 1024 (order: 4, 65536 bytes)                                                               
+[    0.419363] pinctrl core: initialized pinctrl subsystem                                                                          
+[    0.421395] /soc/lcd0-power-domain@10023c80 has as child subdomain: /soc/tv-power-domain@10023c20.                               
+[    0.424721] NET: Registered protocol family 16                                                                                   
+[    0.428396] DMA: preallocated 256 KiB pool for atomic coherent allocations                                                       
+[    0.432310] cpuidle: using governor menu                                                                                         
+[    0.432882] hw-breakpoint: found 5 (+1 reserved) breakpoint and 1 watchpoint registers.                                          
+[    0.433035] hw-breakpoint: maximum watchpoint size is 4 bytes.                                                                   
+[    0.452449] genirq: irq_chip COMBINER did not update eff. affinity mask of irq 64                                                
+[    0.642747] SCSI subsystem initialized                                                                                           
+[    0.644879] Advanced Linux Sound Architecture Driver Initialized.                                                                
+[    0.646735] nfc: nfc_init: NFC Core ver 0.1                                                                                      
+[    0.647013] NET: Registered protocol family 39                                                                                   
+[    0.647908] clocksource: Switched to clocksource mct-frc                                                                         
+[    0.819609] NET: Registered protocol family 1                                                                                    
+[    0.821769] hw perfevents: no interrupt-affinity property for /soc/pmu, guessing.                                                
+[    0.822713] hw perfevents: enabled with armv7_cortex_a9 PMU driver, 7 counters available                                         
+[    0.826994] Initialise system trusted keyrings                                                                                   
+[    0.827599] workingset: timestamp_bits=30 max_order=18 bucket_order=0                                                            
+[    0.844631] romfs: ROMFS MTD (C) 2007 Red Hat, Inc.                                                                              
+[    0.852481] Key type asymmetric registered                                                                                       
+[    0.852649] Asymmetric key parser 'x509' registered                                                                              
+[    0.852938] bounce: pool size: 64 pages                                                                                          
+[    0.853068] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 248)                                                 
+[    0.853209] io scheduler noop registered                                                                                         
+[    0.853266] io scheduler deadline registered                                                                                     
+[    0.853651] io scheduler cfq registered (default)                                                                                
+[    0.853716] io scheduler mq-deadline registered                                                                                  
+[    0.853776] io scheduler kyber registered                                                                                        
+[    0.870732] dma-pl330 12680000.pdma: Loaded driver for PL330 DMAC-141330                                                         
+[    0.870823] dma-pl330 12680000.pdma:         DBUFF-32x4bytes Num_Chans-8 Num_Peri-32 Num_Events-32                               
+[    0.877326] dma-pl330 12690000.pdma: Loaded driver for PL330 DMAC-141330                                                         
+[    0.877411] dma-pl330 12690000.pdma:         DBUFF-32x4bytes Num_Chans-8 Num_Peri-32 Num_Events-32                               
+[    0.879529] dma-pl330 12850000.mdma: Loaded driver for PL330 DMAC-141330                                                         
+[    0.879615] dma-pl330 12850000.mdma:         DBUFF-64x8bytes Num_Chans-8 Num_Peri-1 Num_Events-32                                
+[    1.021254] Serial: 8250/16550 driver, 4 ports, IRQ sharing disabled                                                             
+[    1.025620] 13810000.serial: ttySAC1 at MMIO 0x13810000 (irq = 49, base_baud = 0) is a S3C6400/10                                
+[    1.026783] 13820000.serial: ttySAC2 at MMIO 0x13820000 (irq = 50, base_baud = 0) is a S3C6400/10                                
+[    1.787971] console [ttySAC2] enabled                                                                                            
+[    1.822296] brd: module loaded                                                                                                   
+[    1.847409] loop: module loaded                                                                                                  
+[    1.850818] libphy: Fixed MDIO Bus: probed                                                                                       
+[    1.856905] i2c /dev entries driver                                                                                              
+[    1.865639] s3c2410-wdt 10060000.watchdog: watchdog inactive, reset disabled, irq disabled                                       
+[    1.873909] device-mapper: ioctl: 4.39.0-ioctl (2018-04-03) initialised: dm-devel@redhat.com                                     
+[    1.889831] sdhci: Secure Digital Host Controller Interface driver                                                               
+[    1.894579] sdhci: Copyright(c) Pierre Ossman                                                                                    
+[    1.899496] s3c-sdhci 12530000.sdhci: clock source 2: mmc_busclk.2 (88888889 Hz)                                                 
+[    1.906495] s3c-sdhci 12530000.sdhci: Got CD GPIO                                                                                
+[    1.940541] mmc0: SDHCI controller on samsung-hsmmc [12530000.sdhci] using ADMA                                                  
+[    1.947762] Synopsys Designware Multimedia Card Interface Driver                                                                 
+[    1.956253] dwmmc_exynos 12550000.mmc: IDMAC supports 32-bit address mode.                                                       
+[    1.962429] dwmmc_exynos 12550000.mmc: Using internal DMA controller.                                                            
+[    1.968175] dwmmc_exynos 12550000.mmc: Version ID is 240a                                                                        
+[    1.973581] dwmmc_exynos 12550000.mmc: DW MMC controller at irq 102,32 bit host data width,128 deep fifo                         
+[    1.983329] mmc_host mmc1: card is polling.                                                                                      
+[    1.998018] mmc_host mmc1: Bus speed (slot 0) = 50000000Hz (slot req 400000Hz, actual 396825HZ div = 63)                         
+[    2.024652] s5p-secss 10830000.sss: s5p-sss driver registered                                                                    
+[    2.034610] exynos-bus soc:bus_dmc: soc:bus_dmc supply vdd not found, using dummy regulator                                      
+[    2.042451] exynos-bus soc:bus_dmc: Linked as a consumer to regulator.0                                                          
+[    2.048259] exynos-bus soc:bus_dmc: failed to get the count of devfreq-event in /soc/bus_dmc node                                
+[    2.057046] exynos-bus soc:bus_dmc: failed to get the count of devfreq-event dev                                                 
+[    2.065759] exynos-bus soc:bus_dmc: Dropping the link to regulator.0                                                             
+[    2.071330] exynos-bus: probe of soc:bus_dmc failed with error -22                                                               
+[    2.081201] exynos-bus soc:bus_leftbus: soc:bus_leftbus supply vdd not found, using dummy regulator                              
+[    2.089463] exynos-bus soc:bus_leftbus: Linked as a consumer to regulator.0                                                      
+[    2.095878] exynos-bus soc:bus_leftbus: failed to get the count of devfreq-event in /soc/bus_leftbus node                        
+[    2.105531] exynos-bus soc:bus_leftbus: failed to get the count of devfreq-event dev                                             
+[    2.114351] exynos-bus soc:bus_leftbus: Dropping the link to regulator.0                                                         
+[    2.119846] exynos-bus: probe of soc:bus_leftbus failed with error -22                                                           
+[    2.128326] mmc_host mmc1: Bus speed (slot 0) = 50000000Hz (slot req 52000000Hz, actual 50000000HZ div = 0)                      
+[    2.141089] exynos-ppmu: new PPMU device registered 106a0000.ppmu_dmc0 (ppmu-event3-dmc0)                                        
+[    2.148236] mmc1: new DDR MMC card at address 0001                                                                               
+[    2.148497] exynos-ppmu: new PPMU device registered 106b0000.ppmu_dmc1 (ppmu-event3-dmc1)                                        
+[    2.155126] mmcblk1: mmc1:0001 8WPD3R 7.28 GiB                                                                                   
+[    2.161501] exynos-ppmu: new PPMU device registered 112a0000.ppmu_rightbus (ppmu-event3-rightbus)                                
+[    2.166355] mmcblk1boot0: mmc1:0001 8WPD3R partition 1 4.00 MiB                                                                  
+[    2.174822] exynos-ppmu: new PPMU device registered 116a0000.ppmu_leftbus0 (ppmu-event3-leftbus)                                 
+[    2.181116] mmcblk1boot1: mmc1:0001 8WPD3R partition 2 4.00 MiB                                                                  
+[    2.190710] exynos-adc 126c0000.adc: 126c0000.adc supply vdd not found, using dummy regulator                                    
+[    2.195338] mmcblk1rpmb: mmc1:0001 8WPD3R partition 3 512 KiB, chardev (247:0)                                                   
+[    2.203410] exynos-adc 126c0000.adc: Linked as a consumer to regulator.0                                                         
+[    2.209210] NET: Registered protocol family 17                                                                                   
+[    2.221643] NET: Registered protocol family 15                                                                                   
+[    2.223817]  mmcblk1: p1 p2 p3 p4                                                                                                
+[    2.226159] Registering SWP/SWPB emulation handler                                                                               
+[    2.235110] Loading compiled-in X.509 certificates                                                                               
+[    2.335634] input: gpio-keys as /devices/platform/gpio-keys/input/input0                                                         
+[    2.342218] hctosys: unable to open rtc device (rtc0)                                                                            
+[    2.346277] cfg80211: Loading compiled-in X.509 certificates for regulatory database                                             
+[    2.373778] cfg80211: Loaded X.509 cert 'sforshee: 00b28ddf47aef9cea7'                                                           
+[    2.379822] platform regulatory.0: Direct firmware load for regulatory.db failed with error -2                                   
+[    2.387554] cfg80211: failed to load regulatory.db                                                                               
+[    2.434177] ALSA device list:                                                                                                    
+[    2.435702]   No soundcards found.                                                                                               
+[    2.441987] Waiting 1 sec before mounting root device...                                                                         
+[    3.531410] Waiting for root device /dev/mmcblk0p2...                                                                            
+OK                                                                                                                                  
+                                                                                                                                    
+U-Boot 2010.03-dirty (Nov 13 2015 - 02:04:01) for iTOP-4412 Android                                                                 
+                                                                                                                                    
+                                                                                                                                    
+CPU:    SMDK4412-AP1.1 [e4412211]                                                                                                   
+        APLL = 1000MHz, MPLL = 800MHz                                                                                               
+        ARM_CLOCK = 1000MHz                                                                                                         
+PMIC:   S5M8767(VER5.0)                                                                                                             
+Board:  iTOP-4412Quad                                                                                                               
+POP type: POP for C220                                                                                                              
+DRAM:   1023 MB                                                                                                                     
+MMC:   Count: 100                                                                                                                   
+max_emmc_clock:40 MHZ                                                                                                               
+Set CLK to 400 KHz                                                                                                                  
+EMMC CLOCK OUTPUT:: 400KHz -[div:50]                                                                                                
+response timeout error : 00000104 cmd 8                                                                                             
+response timeout error : 00000104 cmd 55                                                                                            
+max_emmc_clock:40 MHZ                                                                                                               
+Input CLK [ 50 MHz] is higher than limit [40 MHZ]                                                                                   
+Set CLK to 40000 KHz                                                                                                                
+EMMC clock output: 40000 KHz                                                                                                        
+max_emmc_clock:40 MHZ                                                                                                               
+Input CLK [ 50 MHz] is higher than limit [40 MHZ]                                                                                   
+Set CLK to 40000 KHz                                                                                                                
+EMMC clock output: 40000 KHz                                                                                                        
+MMC0:   7456 MB                                                                                                                     
+SD sclk_mmc is 400K HZ                                                                                                              
+raise: Signal # 8 caught                                                                                                            
+raise: Signal # 8 caught                                                                                                            
+MMC1:   0 MB                                                                                                                        
+0 MB                                                                                                                                
+*** Warning - using default environment                                                                                             
+                                                                                                                                    
+In:    serial                                                                                                                       
+Out:   serial                                                                                                                       
+Err:   serial                                                                                                                       
+eMMC OPEN Success.!!                                                                                                                
+                        !!!Notice!!!                                                                                                
+!You must close eMMC boot Partition after all image writing!                                                                        
+!eMMC boot partition has continuity at image writing time.!                                                                         
+!So, Do not close boot partition, Before, all images is written.!                                                                   
+                                                                                                                                    
+MMC read: dev # 0, block # 48, count 16 ...16 blocks read: OK                                                                       
+eMMC CLOSE Success.!!                                                                                                               
+                                                                                                                                    
+                                                                                                                                    
+Checking Boot Mode ... EMMC4.41                                                                                                     
+SYSTEM ENTER NORMAL BOOT MODE                                                                                                       
+Hit any key to stop autoboot:  0                                                                                                    
+iTOP-4412 #                                                                                                                         
+iTOP-4412 #                                                                                                                         
+iTOP-4412 #                                                                                                                         
+iTOP-4412 #                                                                                                                         
+iTOP-4412 #                                                                                                                         
+iTOP-4412 # setenv bootargs "root=/dev/mmcblk1p2 console=ttySAC2,115200"                                                            
+iTOP-4412 # pri                                                                                                                     
+bootdelay=2                                                                                                                         
+baudrate=115200                                                                                                                     
+stdin=serial                                                                                                                        
+stdout=serial                                                                                                                       
+stderr=serial                                                                                                                       
+bootcmd=movi read kernel 40008000;movi read rootfs 40df0000 100000;bootm 40008000 40df0000                                          
+bootargs="root=/dev/mmcblk1p2 console=ttySAC2,115200"                                                                               
+                                                                                                                                    
+Environment size: 214/16380 bytes                                                                                                   
+iTOP-4412 #                                                                                                                         
+bootdelay=2                                                                                                                         
+baudrate=115200                                                                                                                     
+stdin=serial                                                                                                                        
+stdout=serial                                                                                                                       
+stderr=serial                                                                                                                       
+bootcmd=movi read kernel 40008000;movi read rootfs 40df0000 100000;bootm 40008000 40df0000                                          
+bootargs="root=/dev/mmcblk1p2 console=ttySAC2,115200"                                                                               
+                                                                                                                                    
+Environment size: 214/16380 bytes                                                                                                   
+iTOP-4412 # boot                                                                                                                    
+reading kernel.. 1120, 12288                                                                                                        
+MMC read: dev # 0, block # 1120, count 12288 ...12288 blocks read: OK                                                               
+completed                                                                                                                           
+reading RFS.. 13408, 2048                                                                                                           
+MMC read: dev # 0, block # 13408, count 2048 ...2048 blocks read: OK                                                                
+completed                                                                                                                           
+Boot with zImage                                                                                                                    
+Wrong Ramdisk Image Format                                                                                                          
+[err] boot_get_ramdisk                                                                                                              
+                                                                                                                                    
+Starting kernel ...                                                                                                                 
+                                                                                                                                    
+[    0.000000] Booting Linux on physical CPU 0xa00                                                                                  
+[    0.000000] Linux version 4.19.44 (root@ubuntu) (gcc version 5.4.1 20160919 (release) [ARM/embedded-5-branch revision 240496] (GN
+U Tools for ARM Embedded Processors)) #2 SMP PREEMPT Sat Jun 22 08:56:32 CST 2019                                                   
+[    0.000000] CPU: ARMv7 Processor [413fc090] revision 0 (ARMv7), cr=10c5387d                                                      
+[    0.000000] CPU: PIPT / VIPT nonaliasing data cache, VIPT aliasing instruction cache                                             
+[    0.000000] OF: fdt: Machine model: TOPEET iTop 4412 Elite board based on Exynos4412                                             
+[    0.000000] Memory policy: Data cache writealloc                                                                                 
+[    0.000000] Reserved memory: created DMA memory pool at 0x7f700000, size 8 MiB                                                   
+[    0.000000] OF: reserved mem: initialized node region_mfc_right, compatible id shared-dma-pool                                   
+[    0.000000] Reserved memory: created DMA memory pool at 0x7d300000, size 36 MiB                                                  
+[    0.000000] OF: reserved mem: initialized node region_mfc_left, compatible id shared-dma-pool                                    
+[    0.000000] cma: Reserved 96 MiB at 0x77000000                                                                                   
+[    0.000000] Samsung CPU ID: 0xe4412211                                                                                           
+[    0.000000] Running under secure firmware.                                                                                       
+[    0.000000] random: get_random_bytes called from start_kernel+0xa0/0x4a4 with crng_init=0                                        
+[    0.000000] percpu: Embedded 18 pages/cpu s42240 r8192 d23296 u73728                                                             
+[    0.000000] Built 1 zonelists, mobility grouping on.  Total pages: 249088                                                        
+[    0.000000] Kernel command line: "root=/dev/mmcblk1p2 console=ttySAC2,115200"                                                    
+[    0.000000] Dentry cache hash table entries: 131072 (order: 7, 524288 bytes)                                                     
+[    0.000000] Inode-cache hash table entries: 65536 (order: 6, 262144 bytes)                                                       
+[    0.000000] Memory: 874660K/1002496K available (8192K kernel code, 565K rwdata, 2636K rodata, 1024K init, 7495K bss, 29532K reser
+ved, 98304K cma-reserved, 117760K highmem)                                                                                          
+[    0.000000] Virtual kernel memory layout:                                                                                        
+[    0.000000]     vector  : 0xffff0000 - 0xffff1000   (   4 kB)                                                                    
+[    0.000000]     fixmap  : 0xffc00000 - 0xfff00000   (3072 kB)                                                                    
+[    0.000000]     vmalloc : 0xf0800000 - 0xff800000   ( 240 MB)                                                                    
+[    0.000000]     lowmem  : 0xc0000000 - 0xf0000000   ( 768 MB)                                                                    
+[    0.000000]     pkmap   : 0xbfe00000 - 0xc0000000   (   2 MB)                                                                    
+[    0.000000]     modules : 0xbf000000 - 0xbfe00000   (  14 MB)                                                                    
+[    0.000000]       .text : 0x(ptrval) - 0x(ptrval)   (9184 kB)                                                                    
+[    0.000000]       .init : 0x(ptrval) - 0x(ptrval)   (1024 kB)                                                                    
+[    0.000000]       .data : 0x(ptrval) - 0x(ptrval)   ( 566 kB)                                                                    
+[    0.000000]        .bss : 0x(ptrval) - 0x(ptrval)   (7496 kB)                                                                    
+[    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=4, Nodes=1                                                           
+[    0.000000] Running RCU self tests                                                                                               
+[    0.000000] rcu: Preemptible hierarchical RCU implementation.                                                                    
+[    0.000000] rcu:     RCU lockdep checking is enabled.                                                                            
+[    0.000000] rcu:     RCU restricting CPUs from NR_CPUS=8 to nr_cpu_ids=4.                                                        
+[    0.000000]  Tasks RCU enabled.                                                                                                  
+[    0.000000] rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=4                                                         
+[    0.000000] NR_IRQS: 16, nr_irqs: 16, preallocated irqs: 16                                                                      
+[    0.000000] L2C: platform modifies aux control register: 0x02070000 -> 0x3e470001                                                
+[    0.000000] L2C: platform provided aux values permit register corruption.                                                        
+[    0.000000] L2C: DT/platform modifies aux control register: 0x02070000 -> 0x3e470001                                             
+[    0.000000] L2C-310 enabling early BRESP for Cortex-A9                                                                           
+[    0.000000] L2C-310: enabling full line of zeros but not enabled in Cortex-A9                                                    
+[    0.000000] L2C-310 ID prefetch enabled, offset 8 lines                                                                          
+[    0.000000] L2C-310 dynamic clock gating enabled, standby mode enabled                                                           
+[    0.000000] L2C-310 cache controller enabled, 16 ways, 1024 kB                                                                   
+[    0.000000] L2C-310: CACHE_ID 0x4100c4c8, AUX_CTRL 0x7e470001                                                                    
+[    0.000000] Exynos4x12 clocks: sclk_apll = 500000000, sclk_mpll = 800000000                                                      
+[    0.000000]  sclk_epll = 96000000, sclk_vpll = 350000000, arm_clk = 1000000000                                                   
+[    0.000000] Switching to timer-based delay loop, resolution 41ns                                                                 
+[    0.000000] clocksource: mct-frc: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 79635851949 ns                           
+[    0.000005] sched_clock: 32 bits at 24MHz, resolution 41ns, wraps every 89478484971ns                                            
+[    0.000486] Console: colour dummy device 80x30                                                                                   
+[    0.003227] console [tty0] enabled                                                                                               
+[    0.003269] Lock dependency validator: Copyright (c) 2006 Red Hat, Inc., Ingo Molnar                                             
+[    0.003340] ... MAX_LOCKDEP_SUBCLASSES:  8                                                                                       
+[    0.003383] ... MAX_LOCK_DEPTH:          48                                                                                      
+[    0.003427] ... MAX_LOCKDEP_KEYS:        8191                                                                                    
+[    0.003471] ... CLASSHASH_SIZE:          4096                                                                                    
+[    0.003515] ... MAX_LOCKDEP_ENTRIES:     32768                                                                                   
+[    0.003560] ... MAX_LOCKDEP_CHAINS:      65536                                                                                   
+[    0.003605] ... CHAINHASH_SIZE:          32768                                                                                   
+[    0.003649]  memory used by lock dependency info: 4655 kB                                                                        
+[    0.003701]  per task-struct memory footprint: 1536 bytes                                                                        
+[    0.003816] Calibrating delay loop (skipped), value calculated using timer frequency.. 48.00 BogoMIPS (lpj=240000)               
+[    0.003917] pid_max: default: 32768 minimum: 301                                                                                 
+[    0.004270] Mount-cache hash table entries: 2048 (order: 1, 8192 bytes)                                                          
+[    0.004341] Mountpoint-cache hash table entries: 2048 (order: 1, 8192 bytes)                                                     
+[    0.006255] CPU: Testing write buffer coherency: ok                                                                              
+[    0.006366] CPU0: Spectre v2: using BPIALL workaround                                                                            
+[    0.007638] CPU0: thread -1, cpu 0, socket 10, mpidr 80000a00                                                                    
+[    0.060078] Setting up static identity map for 0x40100000 - 0x40100060                                                           
+[    0.080011] rcu: Hierarchical SRCU implementation.                                                                               
+[    0.130013] smp: Bringing up secondary CPUs ...                                                                                  
+[    0.210542] CPU1: thread -1, cpu 1, socket 10, mpidr 80000a01                                                                    
+[    0.210551] CPU1: Spectre v2: using BPIALL workaround                                                                            
+[    0.290369] CPU2: thread -1, cpu 2, socket 10, mpidr 80000a02                                                                    
+[    0.290378] CPU2: Spectre v2: using BPIALL workaround                                                                            
+[    0.370348] CPU3: thread -1, cpu 3, socket 10, mpidr 80000a03                                                                    
+[    0.370356] CPU3: Spectre v2: using BPIALL workaround                                                                            
+[    0.370816] smp: Brought up 1 node, 4 CPUs                                                                                       
+[    0.370876] SMP: Total of 4 processors activated (192.00 BogoMIPS).                                                              
+[    0.370948] CPU: All CPU(s) started in SVC mode.                                                                                 
+[    0.373548] devtmpfs: initialized                                                                                                
+[    0.413726] VFP support v0.3: implementor 41 architecture 3 part 30 variant 9 rev 4                                              
+[    0.415851] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 19112604462750000 ns                     
+[    0.415997] futex hash table entries: 1024 (order: 4, 65536 bytes)                                                               
+[    0.419379] pinctrl core: initialized pinctrl subsystem                                                                          
+[    0.421424] /soc/lcd0-power-domain@10023c80 has as child subdomain: /soc/tv-power-domain@10023c20.                               
+[    0.424759] NET: Registered protocol family 16                                                                                   
+[    0.428381] DMA: preallocated 256 KiB pool for atomic coherent allocations                                                       
+[    0.432279] cpuidle: using governor menu                                                                                         
+[    0.432821] hw-breakpoint: found 5 (+1 reserved) breakpoint and 1 watchpoint registers.                                          
+[    0.432975] hw-breakpoint: maximum watchpoint size is 4 bytes.                                                                   
+[    0.452381] genirq: irq_chip COMBINER did not update eff. affinity mask of irq 64                                                
+[    0.642724] SCSI subsystem initialized                                                                                           
+[    0.644873] Advanced Linux Sound Architecture Driver Initialized.                                                                
+[    0.646742] nfc: nfc_init: NFC Core ver 0.1                                                                                      
+[    0.647018] NET: Registered protocol family 39                                                                                   
+[    0.647911] clocksource: Switched to clocksource mct-frc                                                                         
+[    0.819759] NET: Registered protocol family 1                                                                                    
+[    0.821882] hw perfevents: no interrupt-affinity property for /soc/pmu, guessing.                                                
+[    0.822824] hw perfevents: enabled with armv7_cortex_a9 PMU driver, 7 counters available                                         
+[    0.827127] Initialise system trusted keyrings                                                                                   
+[    0.827735] workingset: timestamp_bits=30 max_order=18 bucket_order=0                                                            
+[    0.844767] romfs: ROMFS MTD (C) 2007 Red Hat, Inc.                                                                              
+[    0.852703] Key type asymmetric registered                                                                                       
+[    0.852870] Asymmetric key parser 'x509' registered                                                                              
+[    0.853168] bounce: pool size: 64 pages                                                                                          
+[    0.853325] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 248)                                                 
+[    0.853466] io scheduler noop registered                                                                                         
+[    0.853523] io scheduler deadline registered                                                                                     
+[    0.853913] io scheduler cfq registered (default)                                                                                
+[    0.853979] io scheduler mq-deadline registered                                                                                  
+[    0.854038] io scheduler kyber registered                                                                                        
+[    0.870986] dma-pl330 12680000.pdma: Loaded driver for PL330 DMAC-141330                                                         
+[    0.871077] dma-pl330 12680000.pdma:         DBUFF-32x4bytes Num_Chans-8 Num_Peri-32 Num_Events-32                               
+[    0.877770] dma-pl330 12690000.pdma: Loaded driver for PL330 DMAC-141330                                                         
+[    0.877912] dma-pl330 12690000.pdma:         DBUFF-32x4bytes Num_Chans-8 Num_Peri-32 Num_Events-32                               
+[    0.880006] dma-pl330 12850000.mdma: Loaded driver for PL330 DMAC-141330                                                         
+[    0.880091] dma-pl330 12850000.mdma:         DBUFF-64x8bytes Num_Chans-8 Num_Peri-1 Num_Events-32                                
+[    1.029201] Serial: 8250/16550 driver, 4 ports, IRQ sharing disabled                                                             
+[    1.033512] 13810000.serial: ttySAC1 at MMIO 0x13810000 (irq = 49, base_baud = 0) is a S3C6400/10                                
+[    1.034653] 13820000.serial: ttySAC2 at MMIO 0x13820000 (irq = 50, base_baud = 0) is a S3C6400/10                                
+[    1.794631] console [ttySAC2] enabled                                                                                            
+[    1.828596] brd: module loaded                                                                                                   
+[    1.853677] loop: module loaded                                                                                                  
+[    1.856988] libphy: Fixed MDIO Bus: probed                                                                                       
+[    1.863147] i2c /dev entries driver                                                                                              
+[    1.871930] s3c2410-wdt 10060000.watchdog: watchdog inactive, reset disabled, irq disabled                                       
+[    1.880189] device-mapper: ioctl: 4.39.0-ioctl (2018-04-03) initialised: dm-devel@redhat.com                                     
+[    1.895969] sdhci: Secure Digital Host Controller Interface driver                                                               
+[    1.901496] sdhci: Copyright(c) Pierre Ossman                                                                                    
+[    1.905564] s3c-sdhci 12530000.sdhci: clock source 2: mmc_busclk.2 (88888889 Hz)                                                 
+[    1.912699] s3c-sdhci 12530000.sdhci: Got CD GPIO                                                                                
+[    1.945516] mmc0: SDHCI controller on samsung-hsmmc [12530000.sdhci] using ADMA                                                  
+[    1.952555] Synopsys Designware Multimedia Card Interface Driver                                                                 
+[    1.959962] dwmmc_exynos 12550000.mmc: IDMAC supports 32-bit address mode.                                                       
+[    1.965654] dwmmc_exynos 12550000.mmc: Using internal DMA controller.                                                            
+[    1.972300] dwmmc_exynos 12550000.mmc: Version ID is 240a                                                                        
+[    1.977277] dwmmc_exynos 12550000.mmc: DW MMC controller at irq 102,32 bit host data width,128 deep fifo                         
+[    1.986983] mmc_host mmc1: card is polling.                                                                                      
+[    2.003743] mmc_host mmc1: Bus speed (slot 0) = 50000000Hz (slot req 400000Hz, actual 396825HZ div = 63)                         
+[    2.033921] s5p-secss 10830000.sss: s5p-sss driver registered                                                                    
+[    2.044166] exynos-bus soc:bus_dmc: soc:bus_dmc supply vdd not found, using dummy regulator                                      
+[    2.051691] exynos-bus soc:bus_dmc: Linked as a consumer to regulator.0                                                          
+[    2.057735] exynos-bus soc:bus_dmc: failed to get the count of devfreq-event in /soc/bus_dmc node                                
+[    2.066635] exynos-bus soc:bus_dmc: failed to get the count of devfreq-event dev                                                 
+[    2.072354] mmc_host mmc1: Bus speed (slot 0) = 50000000Hz (slot req 52000000Hz, actual 50000000HZ div = 0)                      
+[    2.075219] exynos-bus soc:bus_dmc: Dropping the link to regulator.0                                                             
+[    2.084236] mmc1: new DDR MMC card at address 0001                                                                               
+[    2.090328] exynos-bus: probe of soc:bus_dmc failed with error -22                                                               
+[    2.097210] mmcblk1: mmc1:0001 8WPD3R 7.28 GiB                                                                                   
+[    2.105161] exynos-bus soc:bus_leftbus: soc:bus_leftbus supply vdd not found, using dummy regulator                              
+[    2.106483] mmcblk1boot0: mmc1:0001 8WPD3R partition 1 4.00 MiB                                                                  
+[    2.115349] exynos-bus soc:bus_leftbus: Linked as a consumer to regulator.0                                                      
+[    2.121443] mmcblk1boot1: mmc1:0001 8WPD3R partition 2 4.00 MiB                                                                  
+[    2.127324] exynos-bus soc:bus_leftbus: failed to get the count of devfreq-event in /soc/bus_leftbus node                        
+[    2.133991] mmcblk1rpmb: mmc1:0001 8WPD3R partition 3 512 KiB, chardev (247:0)                                                   
+[    2.143345] exynos-bus soc:bus_leftbus: failed to get the count of devfreq-event dev                                             
+[    2.152957]  mmcblk1: p1 p2 p3 p4                                                                                                
+[    2.158608] exynos-bus soc:bus_leftbus: Dropping the link to regulator.0                                                         
+[    2.167717] exynos-bus: probe of soc:bus_leftbus failed with error -22                                                           
+[    2.180066] exynos-ppmu: new PPMU device registered 106a0000.ppmu_dmc0 (ppmu-event3-dmc0)                                        
+[    2.187225] exynos-ppmu: new PPMU device registered 106b0000.ppmu_dmc1 (ppmu-event3-dmc1)                                        
+[    2.195412] exynos-ppmu: new PPMU device registered 112a0000.ppmu_rightbus (ppmu-event3-rightbus)                                
+[    2.204349] exynos-ppmu: new PPMU device registered 116a0000.ppmu_leftbus0 (ppmu-event3-leftbus)                                 
+[    2.214640] exynos-adc 126c0000.adc: 126c0000.adc supply vdd not found, using dummy regulator                                    
+[    2.221914] exynos-adc 126c0000.adc: Linked as a consumer to regulator.0                                                         
+[    2.234270] NET: Registered protocol family 17                                                                                   
+[    2.237316] NET: Registered protocol family 15                                                                                   
+[    2.241960] Registering SWP/SWPB emulation handler                                                                               
+[    2.247536] Loading compiled-in X.509 certificates                                                                               
+[    2.347660] input: gpio-keys as /devices/platform/gpio-keys/input/input0                                                         
+[    2.358074] hctosys: unable to open rtc device (rtc0)                                                                            
+[    2.362039] cfg80211: Loading compiled-in X.509 certificates for regulatory database                                             
+[    2.375313] cfg80211: Loaded X.509 cert 'sforshee: 00b28ddf47aef9cea7'                                                           
+[    2.381338] platform regulatory.0: Direct firmware load for regulatory.db failed with error -2                                   
+[    2.389206] cfg80211: failed to load regulatory.db                                                                               
+[    2.436436] ALSA device list:                                                                                                    
+[    2.438054]   No soundcards found.                                                                                               
+[    2.445000] VFS: Cannot open root device "mmcblk1p2 console=ttySAC2,115200" or unknown-block(0,0): error -6                      
+[    2.453420] Please append a correct "root=" boot option; here are the available partitions:                                      
+[    2.461954] 0100            8192 ram0                                                                                            
+[    2.461963]  (driver?)                                                                                                           
+[    2.467715] 0101            8192 ram1                                                                                            
+[    2.467723]  (driver?)                                                                                                           
+[    2.474000] 0102            8192 ram2                                                                                            
+[    2.474007]  (driver?)                                                                                                           
+[    2.479890] 0103            8192 ram3                                                                                            
+[    2.479897]  (driver?)                                                                                                           
+[    2.485930] 0104            8192 ram4                                                                                            
+[    2.485936]  (driver?)                                                                                                           
+[    2.492008] 0105            8192 ram5                                                                                            
+[    2.492014]  (driver?)                                                                                                           
+[    2.498130] 0106            8192 ram6                                                                                            
+[    2.498136]  (driver?)                                                                                                           
+[    2.504158] 0107            8192 ram7                                                                                            
+[    2.504164]  (driver?)                                                                                                           
+[    2.510235] 0108            8192 ram8                                                                                            
+[    2.510242]  (driver?)                                                                                                           
+[    2.516310] 0109            8192 ram9                                                                                            
+[    2.516316]  (driver?)                                                                                                           
+[    2.522388] 010a            8192 ram10                                                                                           
+[    2.522394]  (driver?)                                                                                                           
+[    2.528590] 010b            8192 ram11                                                                                           
+[    2.528596]  (driver?)                                                                                                           
+[    2.534711] 010c            8192 ram12                                                                                           
+[    2.534717]  (driver?)                                                                                                           
+[    2.540910] 010d            8192 ram13                                                                                           
+[    2.540916]  (driver?)                                                                                                           
+[    2.547037] 010e            8192 ram14                                                                                           
+[    2.547043]  (driver?)                                                                                                           
+[    2.553201] 010f            8192 ram15                                                                                           
+[    2.553208]  (driver?)                                                                                                           
+[    2.559451] b300         7634944 mmcblk1                                                                                         
+[    2.559458]  driver: mmcblk                                                                                                      
+[    2.566135]   b301         5172205 mmcblk1p1 00000000-01                                                                         
+[    2.566142]                                                                                                                      
+[    2.572898]   b302         1052353 mmcblk1p2 00000000-02                                                                         
+[    2.572904]                                                                                                                      
+[    2.579668]   b303         1052353 mmcblk1p3 00000000-03                                                                         
+[    2.579674]                                                                                                                      
+[    2.586436]   b304          313467 mmcblk1p4 00000000-04                                                                         
+[    2.586442]                                                                                                                      
+[    2.593247] Kernel panic - not syncing: VFS: Unable to mount root fs on unknown-block(0,0)                                       
+[    2.601493] CPU: 0 PID: 1 Comm: swapper/0 Not tainted 4.19.44 #2                                                                 
+[    2.607463] Hardware name: SAMSUNG EXYNOS (Flattened Device Tree)                                                                
+[    2.613554] [<c01123f0>] (unwind_backtrace) from [<c010df4c>] (show_stack+0x10/0x14)                                             
+[    2.621285] [<c010df4c>] (show_stack) from [<c080c6b8>] (dump_stack+0xa8/0xd4)                                                   
+[    2.628484] [<c080c6b8>] (dump_stack) from [<c0126a60>] (panic+0x100/0x284)                                                      
+[    2.635425] [<c0126a60>] (panic) from [<c0c0175c>] (mount_block_root+0x224/0x2fc)                                                
+[    2.642893] [<c0c0175c>] (mount_block_root) from [<c0c01b98>] (prepare_namespace+0x19c/0x1e0)                                    
+[    2.651408] [<c0c01b98>] (prepare_namespace) from [<c0c01324>] (kernel_init_freeable+0x488/0x500)                                
+[    2.660266] [<c0c01324>] (kernel_init_freeable) from [<c0822478>] (kernel_init+0x8/0x114)                                        
+[    2.668417] [<c0822478>] (kernel_init) from [<c01010b4>] (ret_from_fork+0x14/0x20)                                               
+[    2.675960] Exception stack(0xef0dffb0 to 0xef0dfff8)                                                                            
+[    2.680979] ffa0:                                     00000000 00000000 00000000 00000000                                        
+[    2.689160] ffc0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000                                        
+[    2.697318] ffe0: 00000000 00000000 00000000 00000000 00000013 00000000                                                          
+[    2.704014] CPU1: stopping                                                                                                       
+[    2.706592] CPU: 1 PID: 0 Comm: swapper/1 Not tainted 4.19.44 #2                                                                 
+[    2.712578] Hardware name: SAMSUNG EXYNOS (Flattened Device Tree)                                                                
+[    2.718662] [<c01123f0>] (unwind_backtrace) from [<c010df4c>] (show_stack+0x10/0x14)                                             
+[    2.726397] [<c010df4c>] (show_stack) from [<c080c6b8>] (dump_stack+0xa8/0xd4)                                                   
+[    2.733598] [<c080c6b8>] (dump_stack) from [<c0111288>] (handle_IPI+0x3a8/0x430)                                                 
+[    2.740980] [<c0111288>] (handle_IPI) from [<c0436680>] (gic_handle_irq+0x98/0x9c)                                               
+[    2.748529] [<c0436680>] (gic_handle_irq) from [<c01019f0>] (__irq_svc+0x70/0xb0)                                                
+[    2.755989] Exception stack(0xef125f60 to 0xef125fa8)                                                                            
+[    2.761010] 5f60: 00000001 00000001 00000000 ef11b300 c0d07470 ef124000 c0d074b4 00000002                                        
+[    2.769189] 5f80: c0c75ba8 00000000 c0d07448 ef125fb8 00000000 ef125fb0 c01874ac c010a288                                        
+[    2.777346] 5fa0: 20000013 ffffffff                                                                                              
+[    2.780794] [<c01019f0>] (__irq_svc) from [<c010a288>] (arch_cpu_idle+0x24/0x44)                                                 
+[    2.788199] [<c010a288>] (arch_cpu_idle) from [<c015ef7c>] (do_idle+0x1c4/0x2ac)                                                 
+[    2.795574] [<c015ef7c>] (do_idle) from [<c015f3f4>] (cpu_startup_entry+0x18/0x1c)                                               
+[    2.803126] [<c015f3f4>] (cpu_startup_entry) from [<4010276c>] (0x4010276c)                                                      
+[    2.810061] CPU3: stopping                                                                                                       
+[    2.812731] CPU: 3 PID: 0 Comm: swapper/3 Not tainted 4.19.44 #2                                                                 
+[    2.818734] Hardware name: SAMSUNG EXYNOS (Flattened Device Tree)                                                                
+[    2.824818] [<c01123f0>] (unwind_backtrace) from [<c010df4c>] (show_stack+0x10/0x14)                                             
+[    2.832553] [<c010df4c>] (show_stack) from [<c080c6b8>] (dump_stack+0xa8/0xd4)                                                   
+[    2.839754] [<c080c6b8>] (dump_stack) from [<c0111288>] (handle_IPI+0x3a8/0x430)                                                 
+[    2.847134] [<c0111288>] (handle_IPI) from [<c0436680>] (gic_handle_irq+0x98/0x9c)                                               
+[    2.854686] [<c0436680>] (gic_handle_irq) from [<c01019f0>] (__irq_svc+0x70/0xb0)                                                
+[    2.862145] Exception stack(0xef129f60 to 0xef129fa8)                                                                            
+[    2.867166] 9f60: 00000001 00000001 00000000 ef11cc80 c0d07470 ef128000 c0d074b4 00000008                                        
+[    2.875346] 9f80: c0c75ba8 00000000 c0d07448 ef129fb8 00000000 ef129fb0 c01874ac c010a288                                        
+[    2.883503] 9fa0: 20000013 ffffffff                                                                                              
+[    2.886950] [<c01019f0>] (__irq_svc) from [<c010a288>] (arch_cpu_idle+0x24/0x44)                                                 
+[    2.894353] [<c010a288>] (arch_cpu_idle) from [<c015ef7c>] (do_idle+0x1c4/0x2ac)                                                 
+[    2.901730] [<c015ef7c>] (do_idle) from [<c015f3f4>] (cpu_startup_entry+0x18/0x1c)                                               
+[    2.909281] [<c015f3f4>] (cpu_startup_entry) from [<4010276c>] (0x4010276c)                                                      
+[    2.916217] CPU2: stopping                                                                                                       
+[    2.918888] CPU: 2 PID: 0 Comm: swapper/2 Not tainted 4.19.44 #2                                                                 
+[    2.924890] Hardware name: SAMSUNG EXYNOS (Flattened Device Tree)                                                                
+[    2.930974] [<c01123f0>] (unwind_backtrace) from [<c010df4c>] (show_stack+0x10/0x14)                                             
+[    2.938710] [<c010df4c>] (show_stack) from [<c080c6b8>] (dump_stack+0xa8/0xd4)                                                   
+[    2.945910] [<c080c6b8>] (dump_stack) from [<c0111288>] (handle_IPI+0x3a8/0x430)                                                 
+[    2.953290] [<c0111288>] (handle_IPI) from [<c0436680>] (gic_handle_irq+0x98/0x9c)                                               
+[    2.960842] [<c0436680>] (gic_handle_irq) from [<c01019f0>] (__irq_svc+0x70/0xb0)                                                
+[    2.968301] Exception stack(0xef127f60 to 0xef127fa8)                                                                            
+[    2.973322] 7f60: 00000001 00000001 00000000 ef11bfc0 c0d07470 ef126000 c0d074b4 00000004                                        
+[    2.981503] 7f80: c0c75ba8 00000000 c0d07448 ef127fb8 00000000 ef127fb0 c01874ac c010a288                                        
+[    2.989659] 7fa0: 20000113 ffffffff                                                                                              
+[    2.993106] [<c01019f0>] (__irq_svc) from [<c010a288>] (arch_cpu_idle+0x24/0x44)                                                 
+[    3.000509] [<c010a288>] (arch_cpu_idle) from [<c015ef7c>] (do_idle+0x1c4/0x2ac)                                                 
+[    3.007886] [<c015ef7c>] (do_idle) from [<c015f3f4>] (cpu_startup_entry+0x18/0x1c)                                               
+[    3.015438] [<c015f3f4>] (cpu_startup_entry) from [<4010276c>] (0x4010276c)                                                      
+[    3.022389] ---[ end Kernel panic - not syncing: VFS: Unable to mount root fs on unknown-block(0,0) ]---
